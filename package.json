@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "Boiler plate for React and js",
   "main": "server.js",
-  "scripts":{
+  "scripts": {
     "client-install": "cd client && npm install",
     "start": "node server.js",
     "server": "nodemon server.js",
-    "client": "cd client && yarn start",
+    "client": "cd client && npm start",
     "dev": "concurrently \"npm run server\" \"npm run client \""
   },
   "repository": {
