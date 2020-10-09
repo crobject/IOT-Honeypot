@@ -1,7 +1,9 @@
 # Honeypot and Network Sniffer
 
-## Quick Start
 
+
+## Quick Start
+Go to https://nodejs.org/en/download/package-manager/ to install node.js for your OS.
 ``` bash
 # Install dependencies for server
 npm install
