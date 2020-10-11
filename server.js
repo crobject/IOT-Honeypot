@@ -7,9 +7,9 @@ app.get('/api/IOT', (req, res) =>{
     const IOT = [
         {device: 'Netgear', ipAddress: '192.0.0.0', epochTime: '1602315374'},
         {device: 'Tenda', ipAddress: '128.0.0.0', epochTime: '1602315400'},
-        {device: 'Bob\'s iPhone', ipAddress: '0.0.0.0', epochTime: '1602315543'}
+        {device: 'Bob\'s iPhone', ipAddress: '0.0.0.0', epochTime: '1602315543'},
     ]; //moo
-    console.log('MOOOOOO')
+    console.log('/api/IOT was requested...')
     res.json(IOT);
 })
 

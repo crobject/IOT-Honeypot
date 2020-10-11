@@ -7,11 +7,20 @@ import TableContainer from '@material-ui/core/TableContainer';
 import TableHead from '@material-ui/core/TableHead';
 import TableRow from '@material-ui/core/TableRow';
 import Paper from '@material-ui/core/Paper';
+import { FormatUnderlined } from '@material-ui/icons';
 
 const useStyles = makeStyles({
   table: {
     minWidth: 650,
   },
+  TableHead: {
+    textDecorationLine: 'underline',
+    background: '#e8e8e8',
+  },
+  paper: {
+    background: 'white',
+    color: 'black',
+  }
 });
 
 export default function IOTTable() {
@@ -23,11 +32,11 @@ export default function IOTTable() {
       .then(data => setRowsTest(data));
   },[]) 
   return (
-    <TableContainer component={Paper}>
+    <TableContainer className = {classes.paper} component={Paper}>
       <Table className={classes.table} aria-label="simple table">
-        <TableHead>
+        <TableHead className={classes.TableHead}>
           <TableRow>
-            <TableCell>Device Name</TableCell>
+            <TableCell id = "" >Device Name</TableCell>
             <TableCell align="right">IP Address</TableCell>
             <TableCell align="right">Created</TableCell>
           </TableRow>
