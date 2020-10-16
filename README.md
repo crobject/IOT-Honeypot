@@ -22,3 +22,16 @@ npm run client
 
 # Server runs on http://localhost:5000 and client on http://localhost:3000
 ```
+
+
+## Use loggers
+
+# Use sshLogger: (run with root permission)
+bash sshLogger.sh
+# The output file would be failedIPs.txt and failedUsers.txt for analyzed output of failed logins
+# sshFailedAttempts.txt would also be generated containing all the failed login attempts from the sshd log file
+
+# Use tcpLogger: (run with root permission)
+bash tcpLogger.sh
+# The output file would be tcpLog.txt for analyzed output of tcp requests sent to the server
+# cap.log would also be generated containing all the captured tcp packets sent to port 80
