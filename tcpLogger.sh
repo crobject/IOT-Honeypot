@@ -6,7 +6,7 @@ function trap_ctrlc ()
 {
     echo "Ctrl-C caught...performing data analysing"
     
-    
+    egrep -i -a "POST /|GET /|Host:" cap.log > tcpLog.txt
     
 
     exit 2
