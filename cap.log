@@ -1,0 +1,64 @@
+22:31:57.711209 IP (tos 0x0, ttl 110, id 10302, offset 0, flags [DF], proto TCP (6), length 638)
+    65.27.152.78.8789 > 46.21.150.52.80: Flags [P.], cksum 0x98ab (correct), seq 2209884872:2209885470, ack 1507149841, win 1026, length 598: HTTP, length: 598
+	GET / HTTP/1.1
+	Host: 46.21.150.52
+	Connection: keep-alive
+	Cache-Control: max-age=0
+	DNT: 1
+	Upgrade-Insecure-Requests: 1
+	User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36
+	Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+	Accept-Encoding: gzip, deflate
+	Accept-Language: en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7,zh-TW;q=0.6,ja;q=0.5
+	If-None-Match: "2aa6-5b1d0af5d94c1-gzip"
+	If-Modified-Since: Fri, 16 Oct 2020 21:45:37 GMT
+	
+22:31:57.712058 IP (tos 0x0, ttl 64, id 15265, offset 0, flags [DF], proto TCP (6), length 2960)
+    46.21.150.52.80 > 65.27.152.78.8789: Flags [P.], cksum 0xa935 (incorrect -> 0x243a), seq 1:2921, ack 598, win 501, length 2920: HTTP, length: 2920
+	HTTP/1.1 200 OK
+	Date: Fri, 16 Oct 2020 22:31:57 GMT
+	Server: Apache/2.4.41 (Ubuntu)
+	Last-Modified: Fri, 16 Oct 2020 21:45:37 GMT
+	ETag: "2aa6-5b1d0af5d94c1-gzip"
+	Accept-Ranges: bytes
+	Vary: Accept-Encoding
+	Content-Encoding: gzip
+	Content-Length: 3138
+	Keep-Alive: timeout=5, max=100
+	Connection: Keep-Alive
+	Content-Type: text/html
+	
+22:31:57.712209 IP (tos 0x0, ttl 64, id 15267, offset 0, flags [DF], proto TCP (6), length 597)
+    46.21.150.52.80 > 65.27.152.78.8789: Flags [P.], cksum 0x9ffa (incorrect -> 0x6e92), seq 2921:3478, ack 598, win 501, length 557: HTTP
+22:31:59.817356 IP (tos 0x0, ttl 110, id 10308, offset 0, flags [DF], proto TCP (6), length 638)
+    65.27.152.78.8789 > 46.21.150.52.80: Flags [P.], cksum 0x88c0 (correct), seq 598:1196, ack 3478, win 1026, length 598: HTTP, length: 598
+	GET / HTTP/1.1
+	Host: 46.21.150.52
+	Connection: keep-alive
+	Cache-Control: max-age=0
+	DNT: 1
+	Upgrade-Insecure-Requests: 1
+	User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36
+	Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+	Accept-Encoding: gzip, deflate
+	Accept-Language: en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7,zh-TW;q=0.6,ja;q=0.5
+	If-None-Match: "2aa6-5b1d0af5d94c1-gzip"
+	If-Modified-Since: Fri, 16 Oct 2020 21:45:37 GMT
+	
+22:31:59.818118 IP (tos 0x0, ttl 64, id 15269, offset 0, flags [DF], proto TCP (6), length 2960)
+    46.21.150.52.80 > 65.27.152.78.8789: Flags [P.], cksum 0xa935 (incorrect -> 0x087e), seq 3478:6398, ack 1196, win 501, length 2920: HTTP, length: 2920
+	HTTP/1.1 200 OK
+	Date: Fri, 16 Oct 2020 22:31:59 GMT
+	Server: Apache/2.4.41 (Ubuntu)
+	Last-Modified: Fri, 16 Oct 2020 21:45:37 GMT
+	ETag: "2aa6-5b1d0af5d94c1-gzip"
+	Accept-Ranges: bytes
+	Vary: Accept-Encoding
+	Content-Encoding: gzip
+	Content-Length: 3138
+	Keep-Alive: timeout=5, max=99
+	Connection: Keep-Alive
+	Content-Type: text/html
+	
+22:31:59.818309 IP (tos 0x0, ttl 64, id 15271, offset 0, flags [DF], proto TCP (6), length 596)
+    46.21.150.52.80 > 65.27.152.78.8789: Flags [P.], cksum 0x9ff9 (incorrect -> 0xe31d), seq 6398:6954, ack 1196, win 501, length 556: HTTP
