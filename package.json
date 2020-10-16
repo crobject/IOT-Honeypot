@@ -1,0 +1,33 @@
+{
+  "name": "iot-honeypot",
+  "version": "1.0.0",
+  "description": "Boiler plate for React and js",
+  "main": "server.js",
+  "scripts": {
+    "client-install": "cd client && npm install",
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "cd client && npm start",
+    "dev": "concurrently \"npm run server\" \"npm run client \""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crobject/IOT-Honeypot.git"
+  },
+  "author": "Any Name",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/crobject/IOT-Honeypot/issues"
+  },
+  "homepage": "https://github.com/crobject/IOT-Honeypot#readme",
+  "dependencies": {
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
+    "concurrently": "^5.3.0",
+    "express": "^4.17.1",
+    "recharts": "^1.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
