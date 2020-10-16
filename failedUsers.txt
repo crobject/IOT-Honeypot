@@ -1,8 +1,10 @@
-9554 root
-448 admin
+counts  user
+----------------
+9557 root
+450 admin
 120 user
 91 test
-57 guest
+58 guest
 52 ubnt
 47 support
 37 pi
@@ -31,8 +33,8 @@
 8 nobody
 8 ubuntu
 8 plcmspip
+7 mysql
 7 user1
-6 mysql
 6 student
 5 zabbix
 5 sysadm
@@ -205,6 +207,7 @@
 1 ppldtepe
 1 postfix
 1 pop
+1 php
 1 orangepi
 1 odroid
 1 nvidia
@@ -234,6 +237,7 @@
 1 hallintomies
 1 guest1
 1 foo
+1 fcweb
 1 ethos
 1 eric
 1 elastic
