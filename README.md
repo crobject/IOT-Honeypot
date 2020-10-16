@@ -25,7 +25,7 @@ npm run client
 
 
 ## Use loggers
-
+``` bash
 # Use sshLogger: (run with root permission)
 bash sshLogger.sh
 # The output file would be failedIPs.txt and failedUsers.txt for analyzed output of failed logins
@@ -35,3 +35,4 @@ bash sshLogger.sh
 bash tcpLogger.sh
 # The output file would be tcpLog.txt for analyzed output of tcp requests sent to the server
 # cap.log would also be generated containing all the captured tcp packets sent to port 80
+```
