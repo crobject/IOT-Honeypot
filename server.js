@@ -1,6 +1,17 @@
 const express = require('express');
-
+var mysql = require('mysql');
 const app = express();
+const dotenv_1 = require("dotenv");
+dotenv_1.config();
+
+var connectionPool = mysql.createConnection({
+    name: "default",
+    type: "mysql",
+    host: process.env.REACT_APP_DB_HOSTNAME,
+    user: process.env.REACT_APP_DB_USER,
+    password: process.env.REACT_APP_DB_PASSWORD,
+    database: "Honeypot"
+});
 
 app.get('/api/IOT', (req, res) =>{
     //replace with query results from the database
@@ -13,7 +24,30 @@ app.get('/api/IOT', (req, res) =>{
     res.json(IOT);
 })
 
+app.get('/api/logs', (req, res) =>{
+    const sql = 'SELECT * FROM Logs';
+    connectionPool.query(sql, (error, results, fields) => {
+      if (error) {
+        res.status(502).json(error);
+      } else {
+        // console.log(results);
+        var results_formatted = []; 
 
+        res.json(results);
+      }
+    })
+})
+
+app.get('/api/chart/requestsbydays', (req, res) =>{
+    const sql = 'call Honeypot.RequestByDay();';
+    connectionPool.query(sql, (error, results, fields) => {
+      if (error) {
+        res.status(502).json(error);
+      } else {
+        res.json(results[0]);
+      }
+    })
+})
 
 
 const port = 5000;

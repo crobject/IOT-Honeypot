@@ -8,7 +8,9 @@
     "start": "node server.js",
     "server": "nodemon server.js",
     "client": "cd client && npm start",
-    "dev": "concurrently \"npm run server\" \"npm run client \""
+    "dev": "concurrently \"npm run server\" \"npm run client \"",
+    "create-db": "mysql --user=root --password=password < ./database/CreationScript.sql",
+    "mockdata-db": "mysql --user=root --password=password < ./database/InsertMockData.sql"
   },
   "repository": {
     "type": "git",
@@ -22,9 +24,12 @@
   "homepage": "https://github.com/crobject/IOT-Honeypot#readme",
   "dependencies": {
     "@material-ui/core": "^4.11.0",
+    "@material-ui/data-grid": "^4.0.0-alpha.9",
     "@material-ui/icons": "^4.9.1",
     "concurrently": "^5.3.0",
+    "dotenv": "^8.2.0",
     "express": "^4.17.1",
+    "mysql": "^2.18.1",
     "recharts": "^1.8.5"
   },
   "devDependencies": {
