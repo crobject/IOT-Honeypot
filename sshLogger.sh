@@ -3,7 +3,7 @@
 # The following command pulls the log from the system log pool and filter all failed attempts to sshFailedAttempts.txt
 grep -a "Failed password" /var/log/auth.log > sshFailedAttempts.txt
 # title for failedIPs.txt
-echo " counts    ip" >> failedIPs.txt
+echo " counts    ip" > failedIPs.txt
 echo "----------------" >> failedIPs.txt
 # the following command uses grep to find the ip
 # by using a regular expression to find the ip
