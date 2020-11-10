@@ -2,7 +2,7 @@
 # Author Yufei Pan
 #
 # First running the sshLogger
-# bash sshLogger.sh
+bash sshLogger.sh
 # The TCP data should be in the cap.log
 #
 # Formating ssh logs in to csv files
