@@ -9,4 +9,5 @@ dir=$(pwd)
 [ "$UID" -eq 0 ] || exec sudo bash "$0" "$@"
 echo "Adding " $dir"/chugger.sh to crontab tasks"
 # Using the root user as not all server is set up to have another user other than root (not recommended but for cross platform compatibility using root here)
-echo "*/30 * * * * $dir/chugger.sh > $dir/chugger.log" | tee -a /var/spool/cron/root
+# echo "*/30 * * * * $dir/chugger.sh >> $dir/chugger.log" | tee -a /etc/crontab
+(crontab -l 2>/dev/null; echo "*/30 * * * * $dir/chugger.sh >> $dir/chugger.log") | crontab -
