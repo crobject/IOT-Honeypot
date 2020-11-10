@@ -1,7 +1,7 @@
-import React from 'react';
+import React, {useState,useEffect} from 'react';
 import { LineChart, Line, CartesianGrid, XAxis, YAxis,Tooltip} from 'recharts';
 
-const data = [{date: '10/11', requests: 12},
+const moo = [{date: '10/11', requests: 12},
 {date: '10/12', requests: 15},
 {date: '10/13', requests: 4},
 {date: '10/14', requests: 6},
@@ -11,7 +11,16 @@ const data = [{date: '10/11', requests: 12},
 
 
 export default function Chart() {
-
+  const [points, setPoints] = useState([]);
+  const [loading, setLoading] = useState(true);
+  useEffect(() =>{
+    fetch('/api/chart/requestsbydays')
+      .then(res => res.json())
+      .then(data => {
+          setPoints(data);
+        })
+      .then(() => setLoading(false));
+  },[])
   return (
     <div style ={{
         display: "flex",
@@ -20,14 +29,13 @@ export default function Chart() {
         alignItems: "center"
     }}>
         <p># of Requests</p>
-        <LineChart  width={600} height={300} data={data}>
-            
-            <Line type="monotone" dataKey="requests" stroke="#fac420" />
+        {!loading && <LineChart  width={600} height={300} data={points}>
+            <Line type="monotone" dataKey="Requests" stroke="#fac420" />
             <CartesianGrid stroke="#ccc" />
             <XAxis dataKey="date" />
             <YAxis />
             <Tooltip />
-        </LineChart>
+        </LineChart>}
     </div>
   );
 }
