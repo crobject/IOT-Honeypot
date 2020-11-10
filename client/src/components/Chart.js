@@ -30,7 +30,7 @@ export default function Chart() {
     }}>
         <p># of Requests</p>
         {!loading && <LineChart  width={600} height={300} data={points}>
-            <Line type="monotone" dataKey="Requests" stroke="#fac420" />
+            <Line type="monotone" dataKey="requests" stroke="#fac420" />
             <CartesianGrid stroke="#ccc" />
             <XAxis dataKey="date" />
             <YAxis />
