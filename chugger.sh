@@ -16,5 +16,5 @@ grep -o -a ".*Failed password for .* from .* port .* ssh2" sshFailedAttempts.txt
 # use sed to replace all the new line seperator to space (now the outputs would only be seperated using null character with out any new line characters
 # use sed again to replace all the null character to new line character so that the output can be interputed by a simple awk call selecting columes.
 # Store the output increamentally to TCPLogs.csv
-grep -P -a -z -o ".*IP.*\n.*\n.*\n.*Host" cap.log | sed -e ':a' -e 'N' -e '$!ba' -e 's/\n/ /g' | sed 's/\x0/\n/g' | awk '{print $(18) "," $(NF) "," $(1)}' >> TCPLogs.csv
+grep -P -a -z -o ".*IP.*\n.*\n.*\n.*Host" cap.log | sed -e ':a' -e 'N' -e '$!ba' -e 's/\n/ /g' | sed 's/\x0/\n/g' | awk '{print $(18) "," $(NF-1) "," $(1)}' >> TCPLogs.csv
 
