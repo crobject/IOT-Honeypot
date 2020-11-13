@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useEffect,useState} from 'react';
 import './App.css';
 import IOTTable from './components/IOTTable';
 import LogTable from './components/LogTable';
@@ -9,12 +9,13 @@ import Title from './components/Title';
 
 
 function App() {
+
   return (
     <div className="App">
       <header className="App-header">
       </header>
       <AppBar />
-      <Map/>
+      <Map style = {{width:"50%"}}/>
       {/* <Chart/> */}
       {/* <IOTTable /> */}
       <LogTable />
