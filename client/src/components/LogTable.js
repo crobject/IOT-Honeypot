@@ -1,5 +1,4 @@
 import React, {useState,useEffect} from 'react';
-import { makeStyles } from '@material-ui/core/styles';
 import { DataGrid } from '@material-ui/data-grid';
 
 const columns = [
@@ -8,19 +7,6 @@ const columns = [
   { field: 'Username', headerName: 'Username', width: 300 },
   { field: 'AccessDate', headerName: 'Date Accessed',type:'date', width: 300},
 ];
-// const useStyles = makeStyles({
-//     table: {
-//       minWidth: 650,
-//     },
-//     TableHead: {
-//       textDecorationLine: 'underline',
-//       background: '#e8e8e8',
-//     },
-//     paper: {
-//       background: 'white',
-//       color: 'black',
-//     }
-//   });
 
 export default function LogTable() {
     // const classes = useStyles();
