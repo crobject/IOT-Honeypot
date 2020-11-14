@@ -101,7 +101,8 @@ function App() {
       {showMap && <Map style = {{width:"50%"}}/>}
       {!showMap && <Chart/>}
       {/* <IOTTable /> */}
-      <HTTPLogTable />
+      {<LogTable/>}
+      {/* <HTTPLogTable /> */}
     </div>
   );
 }
