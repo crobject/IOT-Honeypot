@@ -3,11 +3,12 @@ CREATE DATABASE IF NOT EXISTS Honeypot;
 USE Honeypot;
 
 CREATE TABLE Logs (
-	id int NOT NULL AUTO_INCREMENT,
-	IPAddress VARCHAR(255),
-	Username VARCHAR(255),
-	AccessDate INT,
-    PRIMARY KEY(id)
+        id int NOT NULL AUTO_INCREMENT,
+        IPAddress VARCHAR(255),
+        PortNumber INT,
+        Username VARCHAR(255),
+        AccessDate VARCHAR(255),
+        PRIMARY KEY(id)
 );
 
 
