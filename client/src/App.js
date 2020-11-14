@@ -44,6 +44,7 @@ const useStyles = makeStyles((theme) => ({
 function App() {
   const classes = useStyles();
   const [showMap,setShowMap] = React.useState(false);
+  const [showHTTP,setShowHTTP] = React.useState(false);
   const [anchorEl, setAnchorEl] = React.useState(null);
 
   const handleClick = (event) => {
@@ -54,13 +55,29 @@ function App() {
     setAnchorEl(null);
   };
 
+  const handleHTTPMap = () =>{
+    console.log("mooooo")
+    setShowHTTP(true);
+    setShowMap(true); 
+    handleClose();
+  }
+
+  const handleHTTPGraph = () =>{
+    setShowHTTP(true);
+    setShowMap(false);   
+    handleClose();
+  }
+
+
   const handleFailedMap = () =>{
     setShowMap(true);
+    setShowHTTP(false);
     handleClose();
   }
 
   const handleFailedGraph = () =>{
     setShowMap(false);
+    setShowHTTP(false);
     handleClose();
   }
 
@@ -77,8 +94,9 @@ function App() {
           </Typography>
           
           <div className={classes.grow} />
+
           <Button variant = "outlined" aria-controls="simple-menu" aria-haspopup="true" onClick={handleClick}>
-            Failed Attempts
+            Menu
           </Button>
           <Menu
             id="simple-menu"
@@ -87,8 +105,10 @@ function App() {
             open={Boolean(anchorEl)}
             onClose={handleClose}
           >
-            <MenuItem onClick={handleFailedGraph}>Graph</MenuItem>
-            <MenuItem onClick={handleFailedMap}>Map</MenuItem>
+            <MenuItem onClick={handleFailedGraph}>SSHs Attempts</MenuItem>
+            <MenuItem onClick={handleFailedMap}>SSHs Map</MenuItem>
+            <MenuItem onClick={handleHTTPGraph}>Honeypot Requests</MenuItem>
+            <MenuItem onClick={handleHTTPMap}>Honeypot Map</MenuItem>
           </Menu>
           <div className={classes.sectionDesktop}>
           </div>
@@ -98,11 +118,13 @@ function App() {
         </Toolbar>
       </AppBar>
     </div>
-      {showMap && <Map style = {{width:"50%"}}/>}
-      {!showMap && <Chart/>}
-      {/* <IOTTable /> */}
-      {<LogTable/>}
-      {/* <HTTPLogTable /> */}
+      {(showMap && !showHTTP) && <Map mapType = "SSH"/>}
+      {(!showMap && !showHTTP) && <Chart chartType="SSH"/>}
+      {!showHTTP && <LogTable/>}
+
+      {(showMap && showHTTP) && <Map mapType = "HTTP"/>}
+      {(!showMap && showHTTP) && <Chart chartType="HTTP"/>}
+      {showHTTP && <HTTPLogTable />}
     </div>
   );
 }

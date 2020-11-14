@@ -67,10 +67,37 @@ app.get('/api/chart/requestsbydays', (req, res) =>{
     })
 })
 
-app.get('/api/IPAddresses', (req, res) =>{
+app.get('/api/chart/HTTPChart', (req, res) =>{
+  const sql = 'call Honeypot.RequestByDayHTTP();';
+  connectionPool.query(sql, (error, results, fields) => {
+    if (error) {
+      res.status(502).json(error);
+    } else {
+      res.json(results[0]);
+    }
+  })
+})
+
+app.get('/api/IPAddressesSSH', (req, res) =>{
   // var IPArray = []
   const endpoint = "http://ip-api.com/batch"
   const sql = 'SELECT DISTINCT IPAddress FROM (SELECT IPAddress, AccessDate FROM Honeypot.Logs ORDER BY AccessDate DESC) as t LIMIT 100;';
+  connectionPool.query(sql, (error, results, fields) => {
+    if (error) {
+      res.status(502).json(error);
+    } else {
+      // results.map(row =>{
+      //   IPArray.push(row.IPAddress);
+      // })
+      res.send(results);
+    }
+  })
+})
+
+app.get('/api/IPAddressesHTTP', (req, res) =>{
+  // var IPArray = []
+  const endpoint = "http://ip-api.com/batch"
+  const sql = 'SELECT DISTINCT IPAddress FROM (SELECT IPAddress, ReqTime FROM Honeypot.HTTPRequests ORDER BY ReqTime DESC) as t LIMIT 100;';
   connectionPool.query(sql, (error, results, fields) => {
     if (error) {
       res.status(502).json(error);
