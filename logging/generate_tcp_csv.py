@@ -27,9 +27,9 @@ caps = []
 
 def finish_process_cap(cap):
     # skip requests that we send back
-    if cap['ip'] == our_ip:
+    if cap['ip'] == our_ip or not cur['full_http']:
         return
-    m = re.search('(GET|POST) (\/(.+)) HTTP/1\.\d', cap['full_http'])
+    m = re.search('(GET|POST) (\/(.*)) HTTP/1\.\d', cap['full_http'])
     if m:
         t = m.group(1)
         path = m.group(2)

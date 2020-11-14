@@ -60,6 +60,8 @@ export default function DetailedHTTPRequest(props) {
         aria-describedby="simple-modal-description"
         className={classes.paper}>
         <TableContainer className={classes.paper} component={Paper}>
+          {rows && rows.map((row) => (
+          <div>
           <Table className={classes.table} aria-label="simple table">
             <TableHead className={classes.TableHead}>
               <TableRow>
@@ -69,21 +71,21 @@ export default function DetailedHTTPRequest(props) {
                 <TableCell>Path</TableCell>
               </TableRow>
             </TableHead>
-          {rows && rows.map((row) => (
             <TableBody>
                 <TableRow key={1}>
                   <TableCell>{row.IPAddress}</TableCell>
                   <TableCell>{new Date(row.ReqTime * 1000).toString()}</TableCell>
                   <TableCell>{row.ReqType}</TableCell>
                   <TableCell>{row.QueryParameters}</TableCell>
-                  <TableCell></TableCell>
                 </TableRow>
-                <div >
-                    {formatHttp(atob(row.Fullhttp))}
-                </div>
             </TableBody>
-          ))}
           </Table>
+            <div style={{"padding": "20px"}}>
+                <h2>Raw HTTP Request</h2>
+                {formatHttp(atob(row.Fullhttp))}
+            </div>
+          </div>
+          ))}
         </TableContainer>
       </Modal>
   );
