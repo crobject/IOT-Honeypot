@@ -4,6 +4,9 @@
 # First running the sshLogger
 bash sshLogger.sh
 python3 generate_tcp_csv.py cap.log
+cp cap.log cap-`date -Iseconds`.log 
+echo "" > cap.log
+
 docker container kill $(docker ps | awk '/emulator/ {print $1}')
 docker run -p 80:80 --rm -d --cap-add=net_admin --privileged -it emulator:latest
 # The TCP data should be in the cap.log

@@ -5,6 +5,7 @@ import LogTable from './components/LogTable';
 import HTTPLogTable from './components/HTTPLogTable';
 import Map from './components/Map';
 import Chart from './components/Chart'
+import DetailedHTTPRequest from './components/DetailedHTTPRequest'
 // import AppBar from './components/AppBar'
 import { fade, makeStyles } from '@material-ui/core/styles';
 import AppBar from '@material-ui/core/AppBar';
@@ -125,6 +126,7 @@ function App() {
       {(showMap && showHTTP) && <Map mapType = "HTTP"/>}
       {(!showMap && showHTTP) && <Chart chartType="HTTP"/>}
       {showHTTP && <HTTPLogTable />}
+
     </div>
   );
 }

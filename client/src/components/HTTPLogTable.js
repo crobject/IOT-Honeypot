@@ -1,18 +1,26 @@
 import React, {useState,useEffect} from 'react';
 import { DataGrid } from '@material-ui/data-grid';
+import DetailedHTTPRequest from './DetailedHTTPRequest'
 
 const columns = [
   { field: 'id', headerName: 'Log ID', width: 300,hide:true },
   { field: 'IPAddress', headerName: 'IP Address', width: 300 },
+
   { field: 'ReqTime', headerName: 'Time', width: 500 },
   { field: 'ReqType', headerName: 'Http Type', width: 100},
   { field: 'QueryParameters', headerName: 'Http Path', width: 400},
 ];
 
 export default function HTTPLogTable(props) {
+
   //const classes = useStyles();
   const [rows, setRows] = useState([]);
   const [loading, setLoading] = useState(true);
+  const [modal, setModal] = useState(null);
+  const clickRow = (row) => {
+      const idx = row.data.id;
+      setModal(<DetailedHTTPRequest reqid={idx} onExit={()=> setModal(null)}/>)
+  }
   useEffect(() =>{
     fetch('/api/http_logs')
       .then(res => res.json())
@@ -29,7 +37,8 @@ export default function HTTPLogTable(props) {
       },[])
   return (
     <div style={{ height: 1000, width: '100%' }}>
-      <DataGrid loading = {loading} rows={rows} columns={columns} pageSize={25} checkboxSelection />
+      {modal}
+      <DataGrid loading = {loading} rows={rows} columns={columns} pageSize={25} onRowClick={clickRow}/>
     </div>
   );
 }
