@@ -42,6 +42,17 @@ npm run client
 # Server runs on http://localhost:5000 and client on http://localhost:3000
 ```
 
+4.) Setup honeypot and loggers
+``` bash
+## Install docker from https://docs.docker.com/get-docker/
+
+## Install the timer into crontab
+bash logging/scheduler.sh
+
+## Test run the codes
+bash logging/chugger.sh
+# chugger.sh would create sshLogs.csv TCPLogs.csv
+
 ## Use loggers
 ``` bash
 # Use sshLogger: (run with root permission)

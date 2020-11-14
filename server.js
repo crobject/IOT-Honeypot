@@ -25,15 +25,19 @@ app.get('/api/IOT', (req, res) =>{
 })
 
 app.get('/api/logs', (req, res) =>{
-    const sql = 'SELECT * FROM Logs';
+    const sql = 'SELECT DISTINCT IPAddress, PortNumber, Username, AccessDate FROM Logs WHERE NOT AccessDate = ".";';
     connectionPool.query(sql, (error, results, fields) => {
       if (error) {
         res.status(502).json(error);
       } else {
         // console.log(results);
         var results_formatted = []; 
-
-        res.json(results);
+        var i = 0;
+        results.map((row) =>{
+          results_formatted.push({...row, id:i});
+          i++;
+        })
+        res.json(results_formatted.reverse());
       }
     })
 })
@@ -80,7 +84,7 @@ app.get('/api/chart/requestsbydays', (req, res) =>{
 app.get('/api/IPAddresses', (req, res) =>{
   // var IPArray = []
   const endpoint = "http://ip-api.com/batch"
-  const sql = 'SELECT IPAddress FROM (SELECT IPAddress, AccessDate FROM Honeypot.Logs ORDER BY AccessDate DESC) as t LIMIT 100;';
+  const sql = 'SELECT DISTINCT IPAddress FROM (SELECT IPAddress, AccessDate FROM Honeypot.Logs ORDER BY AccessDate DESC) as t LIMIT 100;';
   connectionPool.query(sql, (error, results, fields) => {
     if (error) {
       res.status(502).json(error);

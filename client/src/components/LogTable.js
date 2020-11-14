@@ -4,9 +4,11 @@ import { DataGrid } from '@material-ui/data-grid';
 const columns = [
   { field: 'id', headerName: 'Log ID', width: 300,hide:true },
   { field: 'IPAddress', headerName: 'IP Address', width: 300 },
+  { field: 'PortNumber', headerName: 'Port Number', width: 300 },
   { field: 'Username', headerName: 'Username', width: 300 },
-  { field: 'AccessDate', headerName: 'Date Accessed',type:'date', width: 300},
+  { field: 'AccessDate', headerName: 'Date Accessed',type:"date", width: 300},
 ];
+
 
 export default function LogTable() {
     // const classes = useStyles();
@@ -18,8 +20,9 @@ export default function LogTable() {
           .then(data => {
               var data_formatted = []
               data.map(row =>{
-                var myDate = new Date(parseInt(row.AccessDate)*1000);
-                data_formatted.push({...row, AccessDate: myDate.toISOString()});
+                const temp = "2020 " + row.AccessDate
+                const date = new Date(temp);
+                data_formatted.push({...row, AccessDate: date.toISOString()});
               })
               setRows(data_formatted)
             })
@@ -27,7 +30,7 @@ export default function LogTable() {
       },[])
   return (
     <div style={{ height: 400, width: '100%' }}>
-      <DataGrid loading = {loading} rows={rows} columns={columns} pageSize={5} checkboxSelection />
+      <DataGrid loading = {loading} rows={rows} columns={columns} pageSize={5} />
     </div>
   );
 }
