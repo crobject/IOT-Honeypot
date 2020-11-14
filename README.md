@@ -44,6 +44,8 @@ npm run client
 
 4.) Setup honeypot and loggers
 ``` bash
+## Install docker from https://docs.docker.com/get-docker/
+
 ## Install the timer into crontab
 bash logging/scheduler.sh
 
