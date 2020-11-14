@@ -39,8 +39,14 @@ const breakupArray = (size, data) =>{
 export default function Map(props){
   const [markers, setMarkers] = React.useState([]);
   const [selected, setSelected] = React.useState(null);
+  var api;
   useEffect(()=>{
-    fetch('/api/IPAddresses')
+    if(props.mapType === "SSH"){
+      api = '/api/IPAddressesSSH';
+    }else if (props.mapType === "HTTP"){
+      api = '/api/IPAddressesHTTP';
+    }
+    fetch(api)
       .then(res => res.json())
       .then(data => {
         var IPs = []
@@ -71,6 +77,7 @@ export default function Map(props){
           })
           setMarkers(markerInfo);
         })
+  
   },[]);
   const {isLoaded,loadError} = useLoadScript({
     googleMapsApiKey: process.env.REACT_APP_GOOGLE_MAP_KEY,
