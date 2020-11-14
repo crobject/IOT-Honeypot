@@ -2,12 +2,15 @@ import sys
 import re
 from dateutil import parser
 import mysql.connector
+from collections import defaultdict
+import base64
 
 mydb = mysql.connector.connect(
   host="localhost",
   user="root",
   password="password",
-  database="localhost"
+  database="Honeypot",
+  auth_plugin='mysql_native_password'
 )
 
 mycursor = mydb.cursor()
@@ -33,8 +36,9 @@ def finish_process_cap(cap):
         cur['type'] = t
         cur['path'] = path
 
+    b64_full = str(base64.b64encode(cur['full_http'].encode("utf-8")), 'utf-8')
     sql = "INSERT INTO HTTPRequests (IPAddress, ReqType, ReqTime, QueryParameters, PostParameters, Fullhttp) VALUES (%s, %s, %s, %s, %s, %s)"
-    val = (cur['ip'], cur['type'], cur['time'], cur['path'], '', cur['full_http'])
+    val = (cur['ip'], cur['type'], cur['time'], cur['path'], '', b64_full)
     mycursor.execute(sql, val)
     mydb.commit()
 
@@ -45,10 +49,10 @@ for line in lines:
     if re.match('\d+:\d+:\d+\.\d+ IP', line):
         if cur:
             finish_process_cap(cur)
-        cur = {
-                "time": parser.parse(line.split(' ')[0]).timestamp(),
-                'full_http': ''
-        }
+
+        cur = defaultdict(lambda: "") 
+        cur["time"] = parser.parse(line.split(' ')[0]).timestamp()
+
     elif re.search('(?:[0-9]{1,3}\.){3}[0-9]{1,3}\.\d+ > (?:[0-9]{1,3}\.){3}[0-9]{1,3}\.\d+', line):
         m = re.search('((?:[0-9]{1,3}\.){3}[0-9]{1,3})\.\d+ > (?:[0-9]{1,3}\.){3}[0-9]{1,3}\.\d+', line)
         cur['ip'] = m.group(1)
