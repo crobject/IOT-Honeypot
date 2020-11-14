@@ -10,6 +10,19 @@ CREATE TABLE Logs (
     PRIMARY KEY(id)
 );
 
+
+
+CREATE TABLE HTTPRequests (
+id int NOT NULL AUTO_INCREMENT,
+IPAddress VARCHAR(255),
+ReqType VARCHAR(255),
+ReqTime VARCHAR(255),
+QueryParameters VARCHAR(255),
+PostParameters VARCHAR(255),
+Fullhttp VARCHAR(255),
+PRIMARY KEY(id)
+);
+
 DELIMITER //
 DROP PROCEDURE IF EXISTS RequestByDay;
 USE Honeypot;
