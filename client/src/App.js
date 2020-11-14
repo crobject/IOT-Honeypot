@@ -5,6 +5,7 @@ import LogTable from './components/LogTable';
 import HTTPLogTable from './components/HTTPLogTable';
 import Map from './components/Map';
 import Chart from './components/Chart'
+import DetailedHTTPRequest from './components/DetailedHTTPRequest'
 // import AppBar from './components/AppBar'
 import { fade, makeStyles } from '@material-ui/core/styles';
 import AppBar from '@material-ui/core/AppBar';
@@ -100,7 +101,6 @@ function App() {
     </div>
       {showMap && <Map style = {{width:"50%"}}/>}
       {!showMap && <Chart/>}
-      {/* <IOTTable /> */}
       <HTTPLogTable />
     </div>
   );

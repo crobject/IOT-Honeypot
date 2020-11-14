@@ -39,7 +39,21 @@ app.get('/api/logs', (req, res) =>{
 })
 
 app.get('/api/http_logs', (req, res) =>{
-    const sql = 'SELECT * FROM HTTPRequests';
+    const sql = 'SELECT * FROM HTTPRequests where Fullhttp <> ""';
+    connectionPool.query(sql, (error, results, fields) => {
+      if (error) {
+        res.status(502).json(error);
+      } else {
+        // console.log(results);
+        var results_formatted = []; 
+
+        res.json(results);
+      }
+    })
+})
+
+app.get('/api/http_logs/:id', (req, res) =>{
+    const sql = 'SELECT * FROM HTTPRequests where id=' + Number(req.params.id);
     connectionPool.query(sql, (error, results, fields) => {
       if (error) {
         res.status(502).json(error);
