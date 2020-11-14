@@ -38,6 +38,20 @@ app.get('/api/logs', (req, res) =>{
     })
 })
 
+app.get('/api/http_logs', (req, res) =>{
+    const sql = 'SELECT * FROM HTTPRequests';
+    connectionPool.query(sql, (error, results, fields) => {
+      if (error) {
+        res.status(502).json(error);
+      } else {
+        // console.log(results);
+        var results_formatted = []; 
+
+        res.json(results);
+      }
+    })
+})
+
 app.get('/api/chart/requestsbydays', (req, res) =>{
     const sql = 'call Honeypot.RequestByDay();';
     connectionPool.query(sql, (error, results, fields) => {

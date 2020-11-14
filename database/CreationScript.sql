@@ -19,7 +19,7 @@ ReqType VARCHAR(255),
 ReqTime VARCHAR(255),
 QueryParameters VARCHAR(255),
 PostParameters VARCHAR(255),
-Fullhttp VARCHAR(255),
+Fullhttp VARCHAR(4000),
 PRIMARY KEY(id)
 );
 

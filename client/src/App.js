@@ -2,6 +2,7 @@ import React,{useEffect,useState} from 'react';
 import './App.css';
 import IOTTable from './components/IOTTable';
 import LogTable from './components/LogTable';
+import HTTPLogTable from './components/HTTPLogTable';
 import Map from './components/Map';
 import Chart from './components/Chart'
 // import AppBar from './components/AppBar'
@@ -100,7 +101,7 @@ function App() {
       {showMap && <Map style = {{width:"50%"}}/>}
       {!showMap && <Chart/>}
       {/* <IOTTable /> */}
-      <LogTable />
+      <HTTPLogTable />
     </div>
   );
 }
