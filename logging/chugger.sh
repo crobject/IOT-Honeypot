@@ -13,9 +13,10 @@ docker run -p 80:80 --rm -d --cap-add=net_admin --privileged -it emulator:latest
 #
 # Formating ssh logs in to csv files
 # using grep and line formatter to remove repetitive entrees on the same line
+# Using sed to replace all comma with semicolons
 # Then using awk to format the data by selecting which column to take
 # Finnaly store the data to a csv file
-grep -o -a ".*Failed password for .* from .* port .* ssh2" sshFailedAttempts.txt | awk '{print $(NF-3) "," $(NF-1) "," $(NF-5) ","$1,$2,$3}' >> sshLogs.csv
+grep -o -a ".*Failed password for .* from .* port .* ssh2" sshFailedAttempts.txt |sed -e ':a' -e 'N' -e '$!ba' -e 's/,/;/g' | awk '{print $(NF-3) "," $(NF-1) "," $(NF-5) ","$1,$2,$3}' >> sshLogs.csv
 #
 # For the TCP log part
 # Use grep with -P for perl regular expressions with -z to took the whole file as one line, find pattern patch and out put with null character as spacer
