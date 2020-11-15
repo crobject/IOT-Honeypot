@@ -1,0 +1,615 @@
+20:18:56.810802 IP (tos 0x0, ttl 51, id 53342, offset 0, flags [DF], proto TCP (6), length 514)
+    74.135.2.111.36362 > 46.21.150.52.80: Flags [P.], cksum 0x86a2 (correct), seq 1496512587:1496513049, ack 444454658, win 502, options [nop,nop,TS val 3993427595 ecr 4294896891], length 462: HTTP, length: 462
+	GET /@start_page HTTP/1.1
+	Host: 46.21.150.52
+	Connection: keep-alive
+	Upgrade-Insecure-Requests: 1
+	User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36
+	Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+	Referer: http://46.21.150.52/
+	Accept-Encoding: gzip, deflate
+	Accept-Language: en-US,en;q=0.9
+	
+20:18:56.828887 IP (tos 0x0, ttl 62, id 14868, offset 0, flags [DF], proto TCP (6), length 344)
+    46.21.150.52.80 > 74.135.2.111.36362: Flags [P.], cksum 0x4b56 (correct), seq 1:293, ack 462, win 972, options [nop,nop,TS val 4294896916 ecr 3993427595], length 292: HTTP, length: 292
+	HTTP/1.1 404 Not Found
+	Server: 
+	Date: Sat, 14 Nov 2020 20:18:55 GMT
+	Content-Type: text/html
+	Connection: close
+	
+	<HTML>
+	<HEAD><TITLE>404 Not Found</TITLE></HEAD>
+	<BODY BGCOLOR="#cc9999" TEXT="#000000" LINK="#2020ff" VLINK="#4040cc">
+	<H4>404 Not Found</H4>
+	File not found.
+	</BODY>
+	</HTML>
+20:19:41.099344 IP (tos 0x0, ttl 51, id 13801, offset 0, flags [DF], proto TCP (6), length 514)
+    74.135.2.111.36726 > 46.21.150.52.80: Flags [P.], cksum 0x4654 (correct), seq 4015737621:4015738083, ack 1149589128, win 502, options [nop,nop,TS val 3993471881 ecr 4294896734], length 462: HTTP, length: 462
+	GET /@start_page HTTP/1.1
+	Host: 46.21.150.52
+	Connection: keep-alive
+	Upgrade-Insecure-Requests: 1
+	User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36
+	Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+	Referer: http://46.21.150.52/
+	Accept-Encoding: gzip, deflate
+	Accept-Language: en-US,en;q=0.9
+	
+20:19:41.138364 IP (tos 0x0, ttl 62, id 47867, offset 0, flags [DF], proto TCP (6), length 344)
+    46.21.150.52.80 > 74.135.2.111.36726: Flags [P.], cksum 0x0f02 (correct), seq 1:293, ack 462, win 972, options [nop,nop,TS val 4294896765 ecr 3993471881], length 292: HTTP, length: 292
+	HTTP/1.1 404 Not Found
+	Server: 
+	Date: Sat, 14 Nov 2020 20:19:41 GMT
+	Content-Type: text/html
+	Connection: close
+	
+	<HTML>
+	<HEAD><TITLE>404 Not Found</TITLE></HEAD>
+	<BODY BGCOLOR="#cc9999" TEXT="#000000" LINK="#2020ff" VLINK="#4040cc">
+	<H4>404 Not Found</H4>
+	File not found.
+	</BODY>
+	</HTML>
+20:19:48.799807 IP (tos 0x0, ttl 51, id 21760, offset 0, flags [DF], proto TCP (6), length 472)
+    74.135.2.111.36792 > 46.21.150.52.80: Flags [P.], cksum 0x7d00 (correct), seq 1655945272:1655945692, ack 1265308753, win 502, options [nop,nop,TS val 3993479583 ecr 4294898662], length 420: HTTP, length: 420
+	GET / HTTP/1.1
+	Host: 46.21.150.52
+	Connection: keep-alive
+	Upgrade-Insecure-Requests: 1
+	User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36
+	Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+	Accept-Encoding: gzip, deflate
+	Accept-Language: en-US,en;q=0.9
+	
+20:19:48.807117 IP (tos 0x0, ttl 62, id 59306, offset 0, flags [DF], proto TCP (6), length 1104)
+    46.21.150.52.80 > 74.135.2.111.36792: Flags [P.], cksum 0x747f (correct), seq 1:1053, ack 420, win 972, options [nop,nop,TS val 4294898682 ecr 3993479583], length 1052: HTTP, length: 1052
+	HTTP/1.1 401 Unauthorized
+	Server: 
+	Date: Sat, 14 Nov 2020 20:19:48 GMT
+	WWW-Authenticate: Basic realm="NETGEAR DGN1000 "
+	Content-Type: text/html
+	Connection: close
+	
+	<html>
+	<head>
+	<META http-equiv="Pragma" CONTENT="no-cache">
+	<META HTTP-EQUIV="Cache-Control" CONTENT="no-cache">	
+	<meta HTTP-EQUIV="Expires" CONTENT="Mon, 06 Jan 1990 00:00:01 GMT"> 
+	
+	
+	<meta name="description" content="DG834N 1049">
+	<meta http-equiv="content-type" content="text/html;charset=ISO-8859-1">
+	
+		
+	 
+	
+	
+	
+	
+	
+	
+	<title> Authorization warning</title>
+	</head>
+	
+	<body bgcolor="#ffffff">
+	<p><font size=4 color="#0099cc" face='Arial,Helvetica,Geneva,Swiss,SunSans-Regular,sans-serif'>Warning</font></p>
+	
+	<hr color="#0099cc">
+	
+	<p align="center"><b><font size=3 face='Arial,Helvetica,Geneva,Swiss,SunSans-Regular,sans-serif'>System Authentication Failed.</font></b></p>
+	
+	<p align="center"><BR><font size=-1 face='Arial,Helvetica,Geneva,Swiss,SunSans-Regular,sans-serif'>
+	Please contact your system administrator for the correct information.</font></p>
+	
+	</body>
+	</html>
+	</BODY>
+	</HTML>
+20:19:54.321980 IP (tos 0x0, ttl 51, id 56550, offset 0, flags [DF], proto TCP (6), length 541)
+    74.135.2.111.36844 > 46.21.150.52.80: Flags [P.], cksum 0x83a5 (correct), seq 3610088592:3610089081, ack 1354955654, win 502, options [nop,nop,TS val 3993485107 ecr 4294900042], length 489: HTTP, length: 489
+	GET / HTTP/1.1
+	Host: 46.21.150.52
+	Connection: keep-alive
+	Cache-Control: max-age=0
+	Authorization: Basic YWRtaW46cGFzc3dvcmQ=
+	Upgrade-Insecure-Requests: 1
+	User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36
+	Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+	Accept-Encoding: gzip, deflate
+	Accept-Language: en-US,en;q=0.9
+	
+20:19:54.351241 IP (tos 0x0, ttl 62, id 732, offset 0, flags [DF], proto TCP (6), length 69)
+    46.21.150.52.80 > 74.135.2.111.36844: Flags [P.], cksum 0xb107 (correct), seq 1:18, ack 489, win 972, options [nop,nop,TS val 4294900068 ecr 3993485107], length 17: HTTP, length: 17
+	HTTP/1.0 200 OK
+20:19:54.351748 IP (tos 0x0, ttl 62, id 733, offset 0, flags [DF], proto TCP (6), length 627)
+    46.21.150.52.80 > 74.135.2.111.36844: Flags [FP.], cksum 0x0d01 (correct), seq 18:593, ack 489, win 972, options [nop,nop,TS val 4294900068 ecr 3993485107], length 575: HTTP
+20:19:54.722357 IP (tos 0x0, ttl 51, id 48517, offset 0, flags [DF], proto TCP (6), length 555)
+    74.135.2.111.36846 > 46.21.150.52.80: Flags [P.], cksum 0x6533 (correct), seq 4190235574:4190236077, ack 1357705058, win 502, options [nop,nop,TS val 3993485504 ecr 4294900142], length 503: HTTP, length: 503
+	GET /start.htm HTTP/1.1
+	Host: 46.21.150.52
+	Connection: keep-alive
+	Authorization: Basic YWRtaW46cGFzc3dvcmQ=
+	Upgrade-Insecure-Requests: 1
+	User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36
+	Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+	Referer: http://46.21.150.52/
+	Accept-Encoding: gzip, deflate
+	Accept-Language: en-US,en;q=0.9
+	
+20:19:54.746254 IP (tos 0x0, ttl 62, id 5795, offset 0, flags [DF], proto TCP (6), length 69)
+    46.21.150.52.80 > 74.135.2.111.36846: Flags [P.], cksum 0x4148 (correct), seq 1:18, ack 503, win 972, options [nop,nop,TS val 4294900166 ecr 3993485504], length 17: HTTP, length: 17
+	HTTP/1.0 200 OK
+20:19:54.747633 IP (tos 0x0, ttl 62, id 5796, offset 0, flags [DF], proto TCP (6), length 1237)
+    46.21.150.52.80 > 74.135.2.111.36846: Flags [FP.], cksum 0x2c29 (correct), seq 18:1203, ack 503, win 972, options [nop,nop,TS val 4294900167 ecr 3993485504], length 1185: HTTP
+20:19:55.061150 IP (tos 0x0, ttl 51, id 25717, offset 0, flags [DF], proto TCP (6), length 564)
+    74.135.2.111.36854 > 46.21.150.52.80: Flags [P.], cksum 0xdff5 (correct), seq 2448683516:2448684028, ack 1372834832, win 502, options [nop,nop,TS val 3993485843 ecr 4294900224], length 512: HTTP, length: 512
+	GET /blank.htm HTTP/1.1
+	Host: 46.21.150.52
+	Connection: keep-alive
+	Authorization: Basic YWRtaW46cGFzc3dvcmQ=
+	Upgrade-Insecure-Requests: 1
+	User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36
+	Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+	Referer: http://46.21.150.52/start.htm
+	Accept-Encoding: gzip, deflate
+	Accept-Language: en-US,en;q=0.9
+	
+20:19:55.061154 IP (tos 0x0, ttl 51, id 13156, offset 0, flags [DF], proto TCP (6), length 562)
+    74.135.2.111.36848 > 46.21.150.52.80: Flags [P.], cksum 0x7a9c (correct), seq 1093377310:1093377820, ack 1369457315, win 502, options [nop,nop,TS val 3993485831 ecr 4294900223], length 510: HTTP, length: 510
+	GET /top.htm HTTP/1.1
+	Host: 46.21.150.52
+	Connection: keep-alive
+	Authorization: Basic YWRtaW46cGFzc3dvcmQ=
+	Upgrade-Insecure-Requests: 1
+	User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36
+	Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+	Referer: http://46.21.150.52/start.htm
+	Accept-Encoding: gzip, deflate
+	Accept-Language: en-US,en;q=0.9
+	
+20:19:55.061187 IP (tos 0x0, ttl 51, id 13144, offset 0, flags [DF], proto TCP (6), length 563)
+    74.135.2.111.36850 > 46.21.150.52.80: Flags [P.], cksum 0xf4db (correct), seq 1786414866:1786415377, ack 1364757293, win 502, options [nop,nop,TS val 3993485831 ecr 4294900223], length 511: HTTP, length: 511
+	GET /menu.htm HTTP/1.1
+	Host: 46.21.150.52
+	Connection: keep-alive
+	Authorization: Basic YWRtaW46cGFzc3dvcmQ=
+	Upgrade-Insecure-Requests: 1
+	User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36
+	Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+	Referer: http://46.21.150.52/start.htm
+	Accept-Encoding: gzip, deflate
+	Accept-Language: en-US,en;q=0.9
+	
+20:19:55.061190 IP (tos 0x0, ttl 51, id 60227, offset 0, flags [DF], proto TCP (6), length 567)
+    74.135.2.111.36852 > 46.21.150.52.80: Flags [P.], cksum 0xf26c (correct), seq 3631146804:3631147319, ack 1361577497, win 502, options [nop,nop,TS val 3993485831 ecr 4294900223], length 515: HTTP, length: 515
+	GET /UPG_auto.htm HTTP/1.1
+	Host: 46.21.150.52
+	Connection: keep-alive
+	Authorization: Basic YWRtaW46cGFzc3dvcmQ=
+	Upgrade-Insecure-Requests: 1
+	User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36
+	Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+	Referer: http://46.21.150.52/start.htm
+	Accept-Encoding: gzip, deflate
+	Accept-Language: en-US,en;q=0.9
+	
+20:19:55.120979 IP (tos 0x0, ttl 62, id 13831, offset 0, flags [DF], proto TCP (6), length 69)
+    46.21.150.52.80 > 74.135.2.111.36854: Flags [P.], cksum 0xc379 (correct), seq 1:18, ack 512, win 972, options [nop,nop,TS val 4294900260 ecr 3993485843], length 17: HTTP, length: 17
+	HTTP/1.0 200 OK
+20:19:55.121465 IP (tos 0x0, ttl 62, id 13832, offset 0, flags [DF], proto TCP (6), length 523)
+    46.21.150.52.80 > 74.135.2.111.36854: Flags [FP.], cksum 0x55e4 (correct), seq 18:489, ack 512, win 972, options [nop,nop,TS val 4294900260 ecr 3993485843], length 471: HTTP
+20:19:55.131630 IP (tos 0x0, ttl 62, id 47281, offset 0, flags [DF], proto TCP (6), length 69)
+    46.21.150.52.80 > 74.135.2.111.36848: Flags [P.], cksum 0xf2d1 (correct), seq 1:18, ack 510, win 972, options [nop,nop,TS val 4294900263 ecr 3993485831], length 17: HTTP, length: 17
+	HTTP/1.0 200 OK
+20:19:55.132085 IP (tos 0x0, ttl 62, id 47282, offset 0, flags [DF], proto TCP (6), length 680)
+    46.21.150.52.80 > 74.135.2.111.36848: Flags [FP.], cksum 0xc8c9 (correct), seq 18:646, ack 510, win 972, options [nop,nop,TS val 4294900263 ecr 3993485831], length 628: HTTP
+20:19:55.134780 IP (tos 0x0, ttl 62, id 28991, offset 0, flags [DF], proto TCP (6), length 69)
+    46.21.150.52.80 > 74.135.2.111.36850: Flags [P.], cksum 0x9748 (correct), seq 1:18, ack 511, win 972, options [nop,nop,TS val 4294900264 ecr 3993485831], length 17: HTTP, length: 17
+	HTTP/1.0 200 OK
+20:19:55.135294 IP (tos 0x0, ttl 62, id 28992, offset 0, flags [DF], proto TCP (6), length 1500)
+    46.21.150.52.80 > 74.135.2.111.36850: Flags [.], cksum 0x09fd (correct), seq 18:1466, ack 511, win 972, options [nop,nop,TS val 4294900264 ecr 3993485831], length 1448: HTTP
+20:19:55.135613 IP (tos 0x0, ttl 62, id 28993, offset 0, flags [DF], proto TCP (6), length 1500)
+    46.21.150.52.80 > 74.135.2.111.36850: Flags [.], cksum 0x7c1a (correct), seq 1466:2914, ack 511, win 972, options [nop,nop,TS val 4294900264 ecr 3993485831], length 1448: HTTP
+20:19:55.135822 IP (tos 0x0, ttl 62, id 28994, offset 0, flags [DF], proto TCP (6), length 1500)
+    46.21.150.52.80 > 74.135.2.111.36850: Flags [.], cksum 0x553c (correct), seq 2914:4362, ack 511, win 972, options [nop,nop,TS val 4294900264 ecr 3993485831], length 1448: HTTP
+20:19:55.135898 IP (tos 0x0, ttl 62, id 28995, offset 0, flags [DF], proto TCP (6), length 1500)
+    46.21.150.52.80 > 74.135.2.111.36850: Flags [.], cksum 0x6ccb (correct), seq 4362:5810, ack 511, win 972, options [nop,nop,TS val 4294900264 ecr 3993485831], length 1448: HTTP
+20:19:55.135971 IP (tos 0x0, ttl 62, id 28996, offset 0, flags [DF], proto TCP (6), length 1500)
+    46.21.150.52.80 > 74.135.2.111.36850: Flags [.], cksum 0x3a8b (correct), seq 5810:7258, ack 511, win 972, options [nop,nop,TS val 4294900264 ecr 3993485831], length 1448: HTTP
+20:19:55.137027 IP (tos 0x0, ttl 62, id 28997, offset 0, flags [DF], proto TCP (6), length 540)
+    46.21.150.52.80 > 74.135.2.111.36850: Flags [FP.], cksum 0xac5b (correct), seq 7258:7746, ack 511, win 972, options [nop,nop,TS val 4294900264 ecr 3993485831], length 488: HTTP
+20:19:55.138119 IP (tos 0x0, ttl 62, id 64528, offset 0, flags [DF], proto TCP (6), length 69)
+    46.21.150.52.80 > 74.135.2.111.36852: Flags [P.], cksum 0x4e70 (correct), seq 1:18, ack 515, win 972, options [nop,nop,TS val 4294900264 ecr 3993485831], length 17: HTTP, length: 17
+	HTTP/1.0 200 OK
+20:19:55.138284 IP (tos 0x0, ttl 62, id 64529, offset 0, flags [DF], proto TCP (6), length 1500)
+    46.21.150.52.80 > 74.135.2.111.36852: Flags [.], cksum 0xfa88 (correct), seq 18:1466, ack 515, win 972, options [nop,nop,TS val 4294900265 ecr 3993485831], length 1448: HTTP
+20:19:55.138385 IP (tos 0x0, ttl 62, id 64530, offset 0, flags [DF], proto TCP (6), length 1500)
+    46.21.150.52.80 > 74.135.2.111.36852: Flags [.], cksum 0xbfaa (correct), seq 1466:2914, ack 515, win 972, options [nop,nop,TS val 4294900265 ecr 3993485831], length 1448: HTTP
+20:19:55.138786 IP (tos 0x0, ttl 62, id 64531, offset 0, flags [DF], proto TCP (6), length 1222)
+    46.21.150.52.80 > 74.135.2.111.36852: Flags [FP.], cksum 0x1c0c (correct), seq 2914:4084, ack 515, win 972, options [nop,nop,TS val 4294900265 ecr 3993485831], length 1170: HTTP
+20:19:55.412427 IP (tos 0x0, ttl 51, id 64012, offset 0, flags [DF], proto TCP (6), length 419)
+    74.135.2.111.36864 > 46.21.150.52.80: Flags [P.], cksum 0xdc66 (correct), seq 1528779766:1528780133, ack 1375574769, win 502, options [nop,nop,TS val 3993486195 ecr 4294900314], length 367: HTTP, length: 367
+	GET /form.css HTTP/1.1
+	Host: 46.21.150.52
+	Connection: keep-alive
+	Authorization: Basic YWRtaW46cGFzc3dvcmQ=
+	User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36
+	Accept: text/css,*/*;q=0.1
+	Referer: http://46.21.150.52/UPG_auto.htm
+	Accept-Encoding: gzip, deflate
+	Accept-Language: en-US,en;q=0.9
+	
+20:19:55.412429 IP (tos 0x0, ttl 51, id 3541, offset 0, flags [DF], proto TCP (6), length 406)
+    74.135.2.111.36866 > 46.21.150.52.80: Flags [P.], cksum 0xfb5e (correct), seq 1381309029:1381309383, ack 1370982604, win 502, options [nop,nop,TS val 3993486195 ecr 4294900314], length 354: HTTP, length: 354
+	GET /utility.js HTTP/1.1
+	Host: 46.21.150.52
+	Connection: keep-alive
+	Authorization: Basic YWRtaW46cGFzc3dvcmQ=
+	User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36
+	Accept: */*
+	Referer: http://46.21.150.52/UPG_auto.htm
+	Accept-Encoding: gzip, deflate
+	Accept-Language: en-US,en;q=0.9
+	
+20:19:55.416718 IP (tos 0x0, ttl 62, id 29347, offset 0, flags [DF], proto TCP (6), length 246)
+    46.21.150.52.80 > 74.135.2.111.36866: Flags [P.], cksum 0x9461 (correct), seq 1:195, ack 354, win 972, options [nop,nop,TS val 4294900334 ecr 3993486195], length 194: HTTP, length: 194
+	HTTP/1.1 200 Ok
+	Server: 
+	Date: Sat, 14 Nov 2020 20:19:55 GMT
+	Content-Type: application/x-javascript
+	Content-Length: 23303
+	Last-Modified: Wed, 27 Oct 2010 02:19:53 GMT
+	Connection: close
+	
+20:19:55.419448 IP (tos 0x0, ttl 62, id 29348, offset 0, flags [DF], proto TCP (6), length 1500)
+    46.21.150.52.80 > 74.135.2.111.36866: Flags [.], cksum 0x96f4 (correct), seq 195:1643, ack 354, win 972, options [nop,nop,TS val 4294900335 ecr 3993486195], length 1448: HTTP
+20:19:55.419473 IP (tos 0x0, ttl 62, id 29349, offset 0, flags [DF], proto TCP (6), length 1500)
+    46.21.150.52.80 > 74.135.2.111.36866: Flags [.], cksum 0x21e6 (correct), seq 1643:3091, ack 354, win 972, options [nop,nop,TS val 4294900335 ecr 3993486195], length 1448: HTTP
+20:19:55.419783 IP (tos 0x0, ttl 62, id 29350, offset 0, flags [DF], proto TCP (6), length 1500)
+    46.21.150.52.80 > 74.135.2.111.36866: Flags [.], cksum 0x4286 (correct), seq 3091:4539, ack 354, win 972, options [nop,nop,TS val 4294900335 ecr 3993486195], length 1448: HTTP
+20:19:55.419804 IP (tos 0x0, ttl 62, id 29351, offset 0, flags [DF], proto TCP (6), length 1500)
+    46.21.150.52.80 > 74.135.2.111.36866: Flags [.], cksum 0xfdff (correct), seq 4539:5987, ack 354, win 972, options [nop,nop,TS val 4294900335 ecr 3993486195], length 1448: HTTP
+20:19:55.419812 IP (tos 0x0, ttl 62, id 29352, offset 0, flags [DF], proto TCP (6), length 1500)
+    46.21.150.52.80 > 74.135.2.111.36866: Flags [.], cksum 0x3d2f (correct), seq 5987:7435, ack 354, win 972, options [nop,nop,TS val 4294900335 ecr 3993486195], length 1448: HTTP
+20:19:55.419925 IP (tos 0x0, ttl 62, id 29353, offset 0, flags [DF], proto TCP (6), length 1500)
+    46.21.150.52.80 > 74.135.2.111.36866: Flags [.], cksum 0xee06 (correct), seq 7435:8883, ack 354, win 972, options [nop,nop,TS val 4294900335 ecr 3993486195], length 1448: HTTP
+20:19:55.419945 IP (tos 0x0, ttl 62, id 29354, offset 0, flags [DF], proto TCP (6), length 1500)
+    46.21.150.52.80 > 74.135.2.111.36866: Flags [.], cksum 0x7518 (correct), seq 8883:10331, ack 354, win 972, options [nop,nop,TS val 4294900335 ecr 3993486195], length 1448: HTTP
+20:19:55.419954 IP (tos 0x0, ttl 62, id 29355, offset 0, flags [DF], proto TCP (6), length 1500)
+    46.21.150.52.80 > 74.135.2.111.36866: Flags [.], cksum 0x8d87 (correct), seq 10331:11779, ack 354, win 972, options [nop,nop,TS val 4294900335 ecr 3993486195], length 1448: HTTP
+20:19:55.421077 IP (tos 0x0, ttl 62, id 29356, offset 0, flags [DF], proto TCP (6), length 1500)
+    46.21.150.52.80 > 74.135.2.111.36866: Flags [.], cksum 0x8111 (correct), seq 11779:13227, ack 354, win 972, options [nop,nop,TS val 4294900335 ecr 3993486195], length 1448: HTTP
+20:19:55.423592 IP (tos 0x0, ttl 62, id 24736, offset 0, flags [DF], proto TCP (6), length 229)
+    46.21.150.52.80 > 74.135.2.111.36864: Flags [P.], cksum 0x402f (correct), seq 1:178, ack 367, win 972, options [nop,nop,TS val 4294900336 ecr 3993486195], length 177: HTTP, length: 177
+	HTTP/1.1 200 Ok
+	Server: 
+	Date: Sat, 14 Nov 2020 20:19:55 GMT
+	Content-Type: text/css
+	Content-Length: 6931
+	Last-Modified: Wed, 27 Oct 2010 02:19:53 GMT
+	Connection: close
+	
+20:19:55.424127 IP (tos 0x0, ttl 62, id 24737, offset 0, flags [DF], proto TCP (6), length 1500)
+    46.21.150.52.80 > 74.135.2.111.36864: Flags [.], cksum 0xe8db (correct), seq 178:1626, ack 367, win 972, options [nop,nop,TS val 4294900336 ecr 3993486195], length 1448: HTTP
+20:19:55.424150 IP (tos 0x0, ttl 62, id 24738, offset 0, flags [DF], proto TCP (6), length 1500)
+    46.21.150.52.80 > 74.135.2.111.36864: Flags [.], cksum 0xd796 (correct), seq 1626:3074, ack 367, win 972, options [nop,nop,TS val 4294900336 ecr 3993486195], length 1448: HTTP
+20:19:55.424281 IP (tos 0x0, ttl 62, id 24739, offset 0, flags [DF], proto TCP (6), length 1500)
+    46.21.150.52.80 > 74.135.2.111.36864: Flags [.], cksum 0x5e18 (correct), seq 3074:4522, ack 367, win 972, options [nop,nop,TS val 4294900336 ecr 3993486195], length 1448: HTTP
+20:19:55.424302 IP (tos 0x0, ttl 62, id 24740, offset 0, flags [DF], proto TCP (6), length 1500)
+    46.21.150.52.80 > 74.135.2.111.36864: Flags [.], cksum 0xc37b (correct), seq 4522:5970, ack 367, win 972, options [nop,nop,TS val 4294900336 ecr 3993486195], length 1448: HTTP
+20:19:55.424805 IP (tos 0x0, ttl 62, id 24741, offset 0, flags [DF], proto TCP (6), length 1191)
+    46.21.150.52.80 > 74.135.2.111.36864: Flags [FP.], cksum 0xfece (correct), seq 5970:7109, ack 367, win 972, options [nop,nop,TS val 4294900336 ecr 3993486195], length 1139: HTTP
+20:19:55.440319 IP (tos 0x0, ttl 51, id 29376, offset 0, flags [DF], proto TCP (6), length 404)
+    74.135.2.111.36868 > 46.21.150.52.80: Flags [P.], cksum 0x57a0 (correct), seq 834823216:834823568, ack 1371109785, win 502, options [nop,nop,TS val 3993486225 ecr 4294900322], length 352: HTTP, length: 352
+	GET /linux.js HTTP/1.1
+	Host: 46.21.150.52
+	Connection: keep-alive
+	Authorization: Basic YWRtaW46cGFzc3dvcmQ=
+	User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36
+	Accept: */*
+	Referer: http://46.21.150.52/UPG_auto.htm
+	Accept-Encoding: gzip, deflate
+	Accept-Language: en-US,en;q=0.9
+	
+20:19:55.440342 IP (tos 0x0, ttl 51, id 26597, offset 0, flags [DF], proto TCP (6), length 450)
+    74.135.2.111.36870 > 46.21.150.52.80: Flags [P.], cksum 0x505a (correct), seq 1963596210:1963596608, ack 1376276704, win 502, options [nop,nop,TS val 3993486225 ecr 4294900322], length 398: HTTP, length: 398
+	GET /darkblue.gif HTTP/1.1
+	Host: 46.21.150.52
+	Connection: keep-alive
+	Authorization: Basic YWRtaW46cGFzc3dvcmQ=
+	User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36
+	Accept: image/avif,image/webp,image/apng,image/*,*/*;q=0.8
+	Referer: http://46.21.150.52/top.htm
+	Accept-Encoding: gzip, deflate
+	Accept-Language: en-US,en;q=0.9
+	
+20:19:55.443335 IP (tos 0x0, ttl 62, id 33772, offset 0, flags [DF], proto TCP (6), length 246)
+    46.21.150.52.80 > 74.135.2.111.36868: Flags [P.], cksum 0x812b (correct), seq 1:195, ack 352, win 972, options [nop,nop,TS val 4294900341 ecr 3993486225], length 194: HTTP, length: 194
+	HTTP/1.1 200 Ok
+	Server: 
+	Date: Sat, 14 Nov 2020 20:19:55 GMT
+	Content-Type: application/x-javascript
+	Content-Length: 14090
+	Last-Modified: Wed, 27 Oct 2010 02:19:53 GMT
+	Connection: close
+	
+20:19:55.444013 IP (tos 0x0, ttl 62, id 33773, offset 0, flags [DF], proto TCP (6), length 1500)
+    46.21.150.52.80 > 74.135.2.111.36868: Flags [.], cksum 0xae31 (correct), seq 195:1643, ack 352, win 972, options [nop,nop,TS val 4294900341 ecr 3993486225], length 1448: HTTP
+20:19:55.444036 IP (tos 0x0, ttl 62, id 33774, offset 0, flags [DF], proto TCP (6), length 1500)
+    46.21.150.52.80 > 74.135.2.111.36868: Flags [.], cksum 0x1afe (correct), seq 1643:3091, ack 352, win 972, options [nop,nop,TS val 4294900341 ecr 3993486225], length 1448: HTTP
+20:19:55.444144 IP (tos 0x0, ttl 62, id 33775, offset 0, flags [DF], proto TCP (6), length 1500)
+    46.21.150.52.80 > 74.135.2.111.36868: Flags [.], cksum 0x1639 (correct), seq 3091:4539, ack 352, win 972, options [nop,nop,TS val 4294900341 ecr 3993486225], length 1448: HTTP
+20:19:55.444170 IP (tos 0x0, ttl 62, id 33776, offset 0, flags [DF], proto TCP (6), length 1500)
+    46.21.150.52.80 > 74.135.2.111.36868: Flags [.], cksum 0xf23b (correct), seq 4539:5987, ack 352, win 972, options [nop,nop,TS val 4294900341 ecr 3993486225], length 1448: HTTP
+20:19:55.444187 IP (tos 0x0, ttl 62, id 33777, offset 0, flags [DF], proto TCP (6), length 1500)
+    46.21.150.52.80 > 74.135.2.111.36868: Flags [.], cksum 0x4e55 (correct), seq 5987:7435, ack 352, win 972, options [nop,nop,TS val 4294900341 ecr 3993486225], length 1448: HTTP
+20:19:55.444288 IP (tos 0x0, ttl 62, id 33778, offset 0, flags [DF], proto TCP (6), length 1500)
+    46.21.150.52.80 > 74.135.2.111.36868: Flags [.], cksum 0x1719 (correct), seq 7435:8883, ack 352, win 972, options [nop,nop,TS val 4294900341 ecr 3993486225], length 1448: HTTP
+20:19:55.444307 IP (tos 0x0, ttl 62, id 33779, offset 0, flags [DF], proto TCP (6), length 1500)
+    46.21.150.52.80 > 74.135.2.111.36868: Flags [.], cksum 0x6724 (correct), seq 8883:10331, ack 352, win 972, options [nop,nop,TS val 4294900341 ecr 3993486225], length 1448: HTTP
+20:19:55.444315 IP (tos 0x0, ttl 62, id 33780, offset 0, flags [DF], proto TCP (6), length 1500)
+    46.21.150.52.80 > 74.135.2.111.36868: Flags [.], cksum 0xd516 (correct), seq 10331:11779, ack 352, win 972, options [nop,nop,TS val 4294900341 ecr 3993486225], length 1448: HTTP
+20:19:55.444717 IP (tos 0x0, ttl 62, id 33781, offset 0, flags [DF], proto TCP (6), length 1500)
+    46.21.150.52.80 > 74.135.2.111.36868: Flags [.], cksum 0xf041 (correct), seq 11779:13227, ack 352, win 972, options [nop,nop,TS val 4294900341 ecr 3993486225], length 1448: HTTP
+20:19:55.444853 IP (tos 0x0, ttl 62, id 33782, offset 0, flags [DF], proto TCP (6), length 1110)
+    46.21.150.52.80 > 74.135.2.111.36868: Flags [FP.], cksum 0x163c (correct), seq 13227:14285, ack 352, win 972, options [nop,nop,TS val 4294900341 ecr 3993486225], length 1058: HTTP
+20:19:55.445559 IP (tos 0x0, ttl 62, id 43667, offset 0, flags [DF], proto TCP (6), length 228)
+    46.21.150.52.80 > 74.135.2.111.36870: Flags [P.], cksum 0x57db (correct), seq 1:177, ack 398, win 972, options [nop,nop,TS val 4294900341 ecr 3993486225], length 176: HTTP, length: 176
+	HTTP/1.1 200 Ok
+	Server: 
+	Date: Sat, 14 Nov 2020 20:19:55 GMT
+	Content-Type: image/gif
+	Content-Length: 43
+	Last-Modified: Wed, 27 Oct 2010 02:19:53 GMT
+	Connection: close
+	
+20:19:55.446355 IP (tos 0x0, ttl 62, id 43668, offset 0, flags [DF], proto TCP (6), length 95)
+    46.21.150.52.80 > 74.135.2.111.36870: Flags [FP.], cksum 0x6ded (correct), seq 177:220, ack 398, win 972, options [nop,nop,TS val 4294900342 ecr 3993486225], length 43: HTTP
+20:19:55.470156 IP (tos 0x0, ttl 51, id 58677, offset 0, flags [DF], proto TCP (6), length 457)
+    74.135.2.111.36872 > 46.21.150.52.80: Flags [P.], cksum 0xfacd (correct), seq 1847262123:1847262528, ack 1374465186, win 502, options [nop,nop,TS val 3993486254 ecr 4294900329], length 405: HTTP, length: 405
+	GET /settingsDGN1000.jpg HTTP/1.1
+	Host: 46.21.150.52
+	Connection: keep-alive
+	Authorization: Basic YWRtaW46cGFzc3dvcmQ=
+	User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36
+	Accept: image/avif,image/webp,image/apng,image/*,*/*;q=0.8
+	Referer: http://46.21.150.52/top.htm
+	Accept-Encoding: gzip, deflate
+	Accept-Language: en-US,en;q=0.9
+	
+20:19:55.473309 IP (tos 0x0, ttl 62, id 22239, offset 0, flags [DF], proto TCP (6), length 232)
+    46.21.150.52.80 > 74.135.2.111.36872: Flags [P.], cksum 0x8a77 (correct), seq 1:181, ack 405, win 972, options [nop,nop,TS val 4294900348 ecr 3993486254], length 180: HTTP, length: 180
+	HTTP/1.1 200 Ok
+	Server: 
+	Date: Sat, 14 Nov 2020 20:19:55 GMT
+	Content-Type: image/jpeg
+	Content-Length: 27949
+	Last-Modified: Wed, 27 Oct 2010 02:19:53 GMT
+	Connection: close
+	
+20:19:55.473973 IP (tos 0x0, ttl 62, id 22240, offset 0, flags [DF], proto TCP (6), length 1500)
+    46.21.150.52.80 > 74.135.2.111.36872: Flags [.], cksum 0x45d0 (correct), seq 181:1629, ack 405, win 972, options [nop,nop,TS val 4294900348 ecr 3993486254], length 1448: HTTP
+20:19:55.473993 IP (tos 0x0, ttl 62, id 22241, offset 0, flags [DF], proto TCP (6), length 1500)
+    46.21.150.52.80 > 74.135.2.111.36872: Flags [.], cksum 0xf840 (correct), seq 1629:3077, ack 405, win 972, options [nop,nop,TS val 4294900348 ecr 3993486254], length 1448: HTTP
+20:19:55.474149 IP (tos 0x0, ttl 62, id 22242, offset 0, flags [DF], proto TCP (6), length 1500)
+    46.21.150.52.80 > 74.135.2.111.36872: Flags [.], cksum 0x45d9 (correct), seq 3077:4525, ack 405, win 972, options [nop,nop,TS val 4294900349 ecr 3993486254], length 1448: HTTP
+20:19:55.474166 IP (tos 0x0, ttl 62, id 22243, offset 0, flags [DF], proto TCP (6), length 1500)
+    46.21.150.52.80 > 74.135.2.111.36872: Flags [.], cksum 0x63a7 (correct), seq 4525:5973, ack 405, win 972, options [nop,nop,TS val 4294900349 ecr 3993486254], length 1448: HTTP
+20:19:55.474173 IP (tos 0x0, ttl 62, id 22244, offset 0, flags [DF], proto TCP (6), length 1500)
+    46.21.150.52.80 > 74.135.2.111.36872: Flags [.], cksum 0x5dff (correct), seq 5973:7421, ack 405, win 972, options [nop,nop,TS val 4294900349 ecr 3993486254], length 1448: HTTP
+20:19:55.474260 IP (tos 0x0, ttl 62, id 22245, offset 0, flags [DF], proto TCP (6), length 1500)
+    46.21.150.52.80 > 74.135.2.111.36872: Flags [.], cksum 0x586d (correct), seq 7421:8869, ack 405, win 972, options [nop,nop,TS val 4294900349 ecr 3993486254], length 1448: HTTP
+20:19:55.474277 IP (tos 0x0, ttl 62, id 22246, offset 0, flags [DF], proto TCP (6), length 1500)
+    46.21.150.52.80 > 74.135.2.111.36872: Flags [.], cksum 0x52af (correct), seq 8869:10317, ack 405, win 972, options [nop,nop,TS val 4294900349 ecr 3993486254], length 1448: HTTP
+20:19:55.474283 IP (tos 0x0, ttl 62, id 22247, offset 0, flags [DF], proto TCP (6), length 1500)
+    46.21.150.52.80 > 74.135.2.111.36872: Flags [.], cksum 0x4d07 (correct), seq 10317:11765, ack 405, win 972, options [nop,nop,TS val 4294900349 ecr 3993486254], length 1448: HTTP
+20:19:55.474723 IP (tos 0x0, ttl 62, id 22248, offset 0, flags [DF], proto TCP (6), length 1500)
+    46.21.150.52.80 > 74.135.2.111.36872: Flags [.], cksum 0x5d5f (correct), seq 11765:13213, ack 405, win 972, options [nop,nop,TS val 4294900349 ecr 3993486254], length 1448: HTTP
+20:19:55.482851 IP (tos 0x0, ttl 51, id 24512, offset 0, flags [DF], proto TCP (6), length 450)
+    74.135.2.111.36874 > 46.21.150.52.80: Flags [P.], cksum 0xccbc (correct), seq 432018780:432019178, ack 1378531645, win 502, options [nop,nop,TS val 3993486266 ecr 4294900332], length 398: HTTP, length: 398
+	GET /redbull.gif HTTP/1.1
+	Host: 46.21.150.52
+	Connection: keep-alive
+	Authorization: Basic YWRtaW46cGFzc3dvcmQ=
+	User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36
+	Accept: image/avif,image/webp,image/apng,image/*,*/*;q=0.8
+	Referer: http://46.21.150.52/menu.htm
+	Accept-Encoding: gzip, deflate
+	Accept-Language: en-US,en;q=0.9
+	
+20:19:55.484596 IP (tos 0x0, ttl 62, id 17220, offset 0, flags [DF], proto TCP (6), length 229)
+    46.21.150.52.80 > 74.135.2.111.36874: Flags [P.], cksum 0x8859 (correct), seq 1:178, ack 398, win 972, options [nop,nop,TS val 4294900351 ecr 3993486266], length 177: HTTP, length: 177
+	HTTP/1.1 200 Ok
+	Server: 
+	Date: Sat, 14 Nov 2020 20:19:55 GMT
+	Content-Type: image/gif
+	Content-Length: 170
+	Last-Modified: Wed, 27 Oct 2010 02:19:53 GMT
+	Connection: close
+	
+20:19:55.485242 IP (tos 0x0, ttl 62, id 17221, offset 0, flags [DF], proto TCP (6), length 222)
+    46.21.150.52.80 > 74.135.2.111.36874: Flags [FP.], cksum 0x4611 (correct), seq 178:348, ack 398, win 972, options [nop,nop,TS val 4294900351 ecr 3993486266], length 170: HTTP
+20:19:55.490541 IP (tos 0x0, ttl 62, id 29357, offset 0, flags [DF], proto TCP (6), length 1500)
+    46.21.150.52.80 > 74.135.2.111.36866: Flags [.], cksum 0x437c (correct), seq 13227:14675, ack 354, win 972, options [nop,nop,TS val 4294900353 ecr 3993486279], length 1448: HTTP
+20:19:55.490562 IP (tos 0x0, ttl 62, id 29358, offset 0, flags [DF], proto TCP (6), length 1500)
+    46.21.150.52.80 > 74.135.2.111.36866: Flags [.], cksum 0x973a (correct), seq 14675:16123, ack 354, win 972, options [nop,nop,TS val 4294900353 ecr 3993486279], length 1448: HTTP
+20:19:55.490569 IP (tos 0x0, ttl 62, id 29359, offset 0, flags [DF], proto TCP (6), length 1500)
+    46.21.150.52.80 > 74.135.2.111.36866: Flags [.], cksum 0x2727 (correct), seq 16123:17571, ack 354, win 972, options [nop,nop,TS val 4294900353 ecr 3993486279], length 1448: HTTP
+20:19:55.490575 IP (tos 0x0, ttl 62, id 29360, offset 0, flags [DF], proto TCP (6), length 1500)
+    46.21.150.52.80 > 74.135.2.111.36866: Flags [.], cksum 0x15ab (correct), seq 17571:19019, ack 354, win 972, options [nop,nop,TS val 4294900353 ecr 3993486279], length 1448: HTTP
+20:19:55.490589 IP (tos 0x0, ttl 62, id 29361, offset 0, flags [DF], proto TCP (6), length 1500)
+    46.21.150.52.80 > 74.135.2.111.36866: Flags [.], cksum 0x67c6 (correct), seq 19019:20467, ack 354, win 972, options [nop,nop,TS val 4294900353 ecr 3993486279], length 1448: HTTP
+20:19:55.490598 IP (tos 0x0, ttl 62, id 29362, offset 0, flags [DF], proto TCP (6), length 1500)
+    46.21.150.52.80 > 74.135.2.111.36866: Flags [.], cksum 0x29f7 (correct), seq 20467:21915, ack 354, win 972, options [nop,nop,TS val 4294900353 ecr 3993486279], length 1448: HTTP
+20:19:55.495709 IP (tos 0x0, ttl 62, id 29363, offset 0, flags [DF], proto TCP (6), length 1500)
+    46.21.150.52.80 > 74.135.2.111.36866: Flags [.], cksum 0x6090 (correct), seq 21915:23363, ack 354, win 972, options [nop,nop,TS val 4294900354 ecr 3993486280], length 1448: HTTP
+20:19:55.495778 IP (tos 0x0, ttl 62, id 29364, offset 0, flags [DF], proto TCP (6), length 187)
+    46.21.150.52.80 > 74.135.2.111.36866: Flags [FP.], cksum 0xd5a0 (correct), seq 23363:23498, ack 354, win 972, options [nop,nop,TS val 4294900354 ecr 3993486280], length 135: HTTP
+20:19:55.543943 IP (tos 0x0, ttl 62, id 22249, offset 0, flags [DF], proto TCP (6), length 1500)
+    46.21.150.52.80 > 74.135.2.111.36872: Flags [.], cksum 0x4156 (correct), seq 13213:14661, ack 405, win 972, options [nop,nop,TS val 4294900366 ecr 3993486334], length 1448: HTTP
+20:19:55.543961 IP (tos 0x0, ttl 62, id 22250, offset 0, flags [DF], proto TCP (6), length 1500)
+    46.21.150.52.80 > 74.135.2.111.36872: Flags [.], cksum 0x9997 (correct), seq 14661:16109, ack 405, win 972, options [nop,nop,TS val 4294900366 ecr 3993486334], length 1448: HTTP
+20:19:55.543969 IP (tos 0x0, ttl 62, id 22251, offset 0, flags [DF], proto TCP (6), length 1500)
+    46.21.150.52.80 > 74.135.2.111.36872: Flags [.], cksum 0x9283 (correct), seq 16109:17557, ack 405, win 972, options [nop,nop,TS val 4294900366 ecr 3993486334], length 1448: HTTP
+20:19:55.543975 IP (tos 0x0, ttl 62, id 22252, offset 0, flags [DF], proto TCP (6), length 1500)
+    46.21.150.52.80 > 74.135.2.111.36872: Flags [.], cksum 0xa8e8 (correct), seq 17557:19005, ack 405, win 972, options [nop,nop,TS val 4294900366 ecr 3993486334], length 1448: HTTP
+20:19:55.543982 IP (tos 0x0, ttl 62, id 22253, offset 0, flags [DF], proto TCP (6), length 1500)
+    46.21.150.52.80 > 74.135.2.111.36872: Flags [.], cksum 0x959a (correct), seq 19005:20453, ack 405, win 972, options [nop,nop,TS val 4294900366 ecr 3993486334], length 1448: HTTP
+20:19:55.543989 IP (tos 0x0, ttl 62, id 22254, offset 0, flags [DF], proto TCP (6), length 1500)
+    46.21.150.52.80 > 74.135.2.111.36872: Flags [.], cksum 0xf217 (correct), seq 20453:21901, ack 405, win 972, options [nop,nop,TS val 4294900366 ecr 3993486334], length 1448: HTTP
+20:19:55.544006 IP (tos 0x0, ttl 62, id 22255, offset 0, flags [DF], proto TCP (6), length 1500)
+    46.21.150.52.80 > 74.135.2.111.36872: Flags [.], cksum 0x37c2 (correct), seq 21901:23349, ack 405, win 972, options [nop,nop,TS val 4294900366 ecr 3993486334], length 1448: HTTP
+20:19:55.544025 IP (tos 0x0, ttl 62, id 22256, offset 0, flags [DF], proto TCP (6), length 1500)
+    46.21.150.52.80 > 74.135.2.111.36872: Flags [.], cksum 0x94a1 (correct), seq 23349:24797, ack 405, win 972, options [nop,nop,TS val 4294900366 ecr 3993486334], length 1448: HTTP
+20:19:55.544236 IP (tos 0x0, ttl 62, id 22257, offset 0, flags [DF], proto TCP (6), length 1500)
+    46.21.150.52.80 > 74.135.2.111.36872: Flags [.], cksum 0x5122 (correct), seq 24797:26245, ack 405, win 972, options [nop,nop,TS val 4294900367 ecr 3993486335], length 1448: HTTP
+20:19:55.544255 IP (tos 0x0, ttl 62, id 22258, offset 0, flags [DF], proto TCP (6), length 1500)
+    46.21.150.52.80 > 74.135.2.111.36872: Flags [.], cksum 0x141e (correct), seq 26245:27693, ack 405, win 972, options [nop,nop,TS val 4294900367 ecr 3993486335], length 1448: HTTP
+20:19:55.544328 IP (tos 0x0, ttl 62, id 22259, offset 0, flags [DF], proto TCP (6), length 489)
+    46.21.150.52.80 > 74.135.2.111.36872: Flags [FP.], cksum 0xfce4 (correct), seq 27693:28130, ack 405, win 972, options [nop,nop,TS val 4294900367 ecr 3993486335], length 437: HTTP
+20:19:55.578913 IP (tos 0x0, ttl 51, id 32078, offset 0, flags [DF], proto TCP (6), length 451)
+    74.135.2.111.36876 > 46.21.150.52.80: Flags [P.], cksum 0x2da2 (correct), seq 2371567845:2371568244, ack 1374115306, win 502, options [nop,nop,TS val 3993486363 ecr 4294900356], length 399: HTTP, length: 399
+	GET /menublue.gif HTTP/1.1
+	Host: 46.21.150.52
+	Connection: keep-alive
+	Authorization: Basic YWRtaW46cGFzc3dvcmQ=
+	User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36
+	Accept: image/avif,image/webp,image/apng,image/*,*/*;q=0.8
+	Referer: http://46.21.150.52/menu.htm
+	Accept-Encoding: gzip, deflate
+	Accept-Language: en-US,en;q=0.9
+	
+20:19:55.582791 IP (tos 0x0, ttl 62, id 44927, offset 0, flags [DF], proto TCP (6), length 229)
+    46.21.150.52.80 > 74.135.2.111.36876: Flags [P.], cksum 0x5144 (correct), seq 1:178, ack 399, win 972, options [nop,nop,TS val 4294900376 ecr 3993486363], length 177: HTTP, length: 177
+	HTTP/1.1 200 Ok
+	Server: 
+	Date: Sat, 14 Nov 2020 20:19:55 GMT
+	Content-Type: image/gif
+	Content-Length: 823
+	Last-Modified: Wed, 27 Oct 2010 02:19:53 GMT
+	Connection: close
+	
+20:19:55.583465 IP (tos 0x0, ttl 62, id 44928, offset 0, flags [DF], proto TCP (6), length 875)
+    46.21.150.52.80 > 74.135.2.111.36876: Flags [FP.], cksum 0xbdc5 (correct), seq 178:1001, ack 399, win 972, options [nop,nop,TS val 4294900376 ecr 3993486363], length 823: HTTP
+20:19:55.601236 IP (tos 0x0, ttl 51, id 1759, offset 0, flags [DF], proto TCP (6), length 449)
+    74.135.2.111.36878 > 46.21.150.52.80: Flags [P.], cksum 0x6ad9 (correct), seq 3147264213:3147264610, ack 1382686819, win 502, options [nop,nop,TS val 3993486383 ecr 4294900362], length 397: HTTP, length: 397
+	GET /spacer.gif HTTP/1.1
+	Host: 46.21.150.52
+	Connection: keep-alive
+	Authorization: Basic YWRtaW46cGFzc3dvcmQ=
+	User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36
+	Accept: image/avif,image/webp,image/apng,image/*,*/*;q=0.8
+	Referer: http://46.21.150.52/menu.htm
+	Accept-Encoding: gzip, deflate
+	Accept-Language: en-US,en;q=0.9
+	
+20:19:55.603406 IP (tos 0x0, ttl 62, id 56063, offset 0, flags [DF], proto TCP (6), length 228)
+    46.21.150.52.80 > 74.135.2.111.36878: Flags [P.], cksum 0xe978 (correct), seq 1:177, ack 397, win 972, options [nop,nop,TS val 4294900381 ecr 3993486383], length 176: HTTP, length: 176
+	HTTP/1.1 200 Ok
+	Server: 
+	Date: Sat, 14 Nov 2020 20:19:55 GMT
+	Content-Type: image/gif
+	Content-Length: 43
+	Last-Modified: Wed, 27 Oct 2010 02:19:53 GMT
+	Connection: close
+	
+20:19:55.604095 IP (tos 0x0, ttl 62, id 56064, offset 0, flags [DF], proto TCP (6), length 95)
+    46.21.150.52.80 > 74.135.2.111.36878: Flags [FP.], cksum 0xfe58 (correct), seq 177:220, ack 397, win 972, options [nop,nop,TS val 4294900381 ecr 3993486383], length 43: HTTP
+20:19:55.684020 IP (tos 0x0, ttl 51, id 58273, offset 0, flags [DF], proto TCP (6), length 455)
+    74.135.2.111.36880 > 46.21.150.52.80: Flags [P.], cksum 0x9a8a (correct), seq 2501679473:2501679876, ack 1374748007, win 502, options [nop,nop,TS val 3993486465 ecr 4294900379], length 403: HTTP, length: 403
+	GET /liteblue.gif HTTP/1.1
+	Host: 46.21.150.52
+	Connection: keep-alive
+	Authorization: Basic YWRtaW46cGFzc3dvcmQ=
+	User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36
+	Accept: image/avif,image/webp,image/apng,image/*,*/*;q=0.8
+	Referer: http://46.21.150.52/UPG_auto.htm
+	Accept-Encoding: gzip, deflate
+	Accept-Language: en-US,en;q=0.9
+	
+20:19:55.686050 IP (tos 0x0, ttl 62, id 1994, offset 0, flags [DF], proto TCP (6), length 228)
+    46.21.150.52.80 > 74.135.2.111.36880: Flags [P.], cksum 0x0859 (correct), seq 1:177, ack 403, win 972, options [nop,nop,TS val 4294900402 ecr 3993486465], length 176: HTTP, length: 176
+	HTTP/1.1 200 Ok
+	Server: 
+	Date: Sat, 14 Nov 2020 20:19:55 GMT
+	Content-Type: image/gif
+	Content-Length: 95
+	Last-Modified: Wed, 27 Oct 2010 02:19:53 GMT
+	Connection: close
+	
+20:19:55.686804 IP (tos 0x0, ttl 62, id 1995, offset 0, flags [DF], proto TCP (6), length 147)
+    46.21.150.52.80 > 74.135.2.111.36880: Flags [FP.], cksum 0xaf13 (correct), seq 177:272, ack 403, win 972, options [nop,nop,TS val 4294900402 ecr 3993486465], length 95: HTTP
+20:19:55.890706 IP (tos 0x0, ttl 51, id 1225, offset 0, flags [DF], proto TCP (6), length 568)
+    74.135.2.111.36882 > 46.21.150.52.80: Flags [P.], cksum 0x9969 (correct), seq 85741489:85742005, ack 1385054868, win 502, options [nop,nop,TS val 3993486651 ecr 4294900426], length 516: HTTP, length: 516
+	GET /hupgrd.htm HTTP/1.1
+	Host: 46.21.150.52
+	Connection: keep-alive
+	Authorization: Basic YWRtaW46cGFzc3dvcmQ=
+	Upgrade-Insecure-Requests: 1
+	User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36
+	Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+	Referer: http://46.21.150.52/UPG_auto.htm
+	Accept-Encoding: gzip, deflate
+	Accept-Language: en-US,en;q=0.9
+	
+20:19:55.907026 IP (tos 0x0, ttl 62, id 47217, offset 0, flags [DF], proto TCP (6), length 69)
+    46.21.150.52.80 > 74.135.2.111.36882: Flags [P.], cksum 0x7751 (correct), seq 1:18, ack 516, win 972, options [nop,nop,TS val 4294900457 ecr 3993486651], length 17: HTTP, length: 17
+	HTTP/1.0 200 OK
+20:19:55.907223 IP (tos 0x0, ttl 62, id 47218, offset 0, flags [DF], proto TCP (6), length 1500)
+    46.21.150.52.80 > 74.135.2.111.36882: Flags [.], cksum 0x4aef (correct), seq 18:1466, ack 516, win 972, options [nop,nop,TS val 4294900457 ecr 3993486651], length 1448: HTTP
+20:19:55.907673 IP (tos 0x0, ttl 62, id 47219, offset 0, flags [DF], proto TCP (6), length 975)
+    46.21.150.52.80 > 74.135.2.111.36882: Flags [FP.], cksum 0xc775 (correct), seq 1466:2389, ack 516, win 972, options [nop,nop,TS val 4294900457 ecr 3993486651], length 923: HTTP
+20:19:56.191527 IP (tos 0x0, ttl 51, id 64430, offset 0, flags [DF], proto TCP (6), length 417)
+    74.135.2.111.36884 > 46.21.150.52.80: Flags [P.], cksum 0xb531 (correct), seq 1798998134:1798998499, ack 1381279657, win 502, options [nop,nop,TS val 3993486975 ecr 4294900510], length 365: HTTP, length: 365
+	GET /help.css HTTP/1.1
+	Host: 46.21.150.52
+	Connection: keep-alive
+	Authorization: Basic YWRtaW46cGFzc3dvcmQ=
+	User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36
+	Accept: text/css,*/*;q=0.1
+	Referer: http://46.21.150.52/hupgrd.htm
+	Accept-Encoding: gzip, deflate
+	Accept-Language: en-US,en;q=0.9
+	
+20:19:56.193517 IP (tos 0x0, ttl 62, id 23706, offset 0, flags [DF], proto TCP (6), length 229)
+    46.21.150.52.80 > 74.135.2.111.36884: Flags [P.], cksum 0xeda5 (correct), seq 1:178, ack 365, win 972, options [nop,nop,TS val 4294900528 ecr 3993486975], length 177: HTTP, length: 177
+	HTTP/1.1 200 Ok
+	Server: 
+	Date: Sat, 14 Nov 2020 20:19:56 GMT
+	Content-Type: text/css
+	Content-Length: 1159
+	Last-Modified: Wed, 27 Oct 2010 02:19:53 GMT
+	Connection: close
+	
+20:19:56.201588 IP (tos 0x0, ttl 62, id 23707, offset 0, flags [DF], proto TCP (6), length 1211)
+    46.21.150.52.80 > 74.135.2.111.36884: Flags [FP.], cksum 0x3d5f (correct), seq 178:1337, ack 365, win 972, options [nop,nop,TS val 4294900531 ecr 3993486975], length 1159: HTTP
+20:20:50.666779 IP (tos 0x0, ttl 51, id 714, offset 0, flags [DF], proto TCP (6), length 514)
+    74.135.2.111.37340 > 46.21.150.52.80: Flags [P.], cksum 0x72aa (correct), seq 1788955196:1788955658, ack 2229934408, win 502, options [nop,nop,TS val 3993541449 ecr 4294914127], length 462: HTTP, length: 462
+	GET /@start_page HTTP/1.1
+	Host: 46.21.150.52
+	Connection: keep-alive
+	Upgrade-Insecure-Requests: 1
+	User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36
+	Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+	Referer: http://46.21.150.52/
+	Accept-Encoding: gzip, deflate
+	Accept-Language: en-US,en;q=0.9
+	
+20:20:50.669599 IP (tos 0x0, ttl 62, id 10541, offset 0, flags [DF], proto TCP (6), length 344)
+    46.21.150.52.80 > 74.135.2.111.37340: Flags [P.], cksum 0x3b6b (correct), seq 1:293, ack 462, win 972, options [nop,nop,TS val 4294914147 ecr 3993541449], length 292: HTTP, length: 292
+	HTTP/1.1 404 Not Found
+	Server: 
+	Date: Sat, 14 Nov 2020 20:20:50 GMT
+	Content-Type: text/html
+	Connection: close
+	
+	<HTML>
+	<HEAD><TITLE>404 Not Found</TITLE></HEAD>
+	<BODY BGCOLOR="#cc9999" TEXT="#000000" LINK="#2020ff" VLINK="#4040cc">
+	<H4>404 Not Found</H4>
+	File not found.
+	</BODY>
+	</HTML>
+

@@ -1,0 +1,161 @@
+
+01:09:54.962709 IP (tos 0x0, ttl 234, id 15686, offset 0, flags [none], proto TCP (6), length 108)
+    79.52.25.11.52507 > 46.21.150.52.80: Flags [P.], cksum 0xb35e (correct), seq 4005402423:4005402491, ack 2650055391, win 1300, length 68: HTTP, length: 68
+	GET / HTTP/1.0
+	Host: 46.21.150.52
+	Accept: text/plain,text/html
+	
+01:09:54.978486 IP (tos 0x0, ttl 62, id 46835, offset 0, flags [DF], proto TCP (6), length 576)
+    46.21.150.52.80 > 79.52.25.11.52507: Flags [.], cksum 0xefe4 (correct), seq 1:537, ack 68, win 14600, length 536: HTTP, length: 536
+	HTTP/1.0 401 Unauthorized
+	Server: 
+	Date: Sun, 15 Nov 2020 01:09:55 GMT
+	WWW-Authenticate: Basic realm="NETGEAR DGN1000 "
+	Content-Type: text/html
+	Connection: close
+	
+	<html>
+	<head>
+	<META http-equiv="Pragma" CONTENT="no-cache">
+	<META HTTP-EQUIV="Cache-Control" CONTENT="no-cache">	
+	<meta HTTP-EQUIV="Expires" CONTENT="Mon, 06 Jan 1990 00:00:01 GMT"> 
+	
+	
+	<meta name="description" content="DG834N 1049">
+	<meta http-equiv="content-type" content="text/html;charset=ISO-8859-1">
+	
+		
+	 
+	
+	
+	
+	
+	
+	
+	<title> Authorization warning</title>
+	</head>
+	
+	<bo[!http]
+01:09:54.978945 IP (tos 0x0, ttl 62, id 46836, offset 0, flags [DF], proto TCP (6), length 556)
+    46.21.150.52.80 > 79.52.25.11.52507: Flags [P.], cksum 0x1165 (correct), seq 537:1053, ack 68, win 14600, length 516: HTTP
+01:25:34.661170 IP (tos 0x0, ttl 56, id 52866, offset 0, flags [DF], proto TCP (6), length 347)
+    164.52.24.163.38119 > 46.21.150.52.80: Flags [P.], cksum 0x6b5b (correct), seq 1605168812:1605169107, ack 253063597, win 229, options [nop,nop,TS val 2979668039 ecr 306068], length 295: HTTP
+01:25:37.688605 IP (tos 0x0, ttl 62, id 55811, offset 0, flags [DF], proto TCP (6), length 353)
+    46.21.150.52.80 > 164.52.24.163.38119: Flags [P.], cksum 0xd7a8 (correct), seq 1:302, ack 296, win 972, options [nop,nop,TS val 306852 ecr 2979668795], length 301: HTTP, length: 301
+	(null) 400 Bad Request
+	Server: 
+	Date: Sun, 15 Nov 2020 01:25:37 GMT
+	Content-Type: text/html
+	Connection: close
+	
+	<HTML>
+	<HEAD><TITLE>400 Bad Request</TITLE></HEAD>
+	<BODY BGCOLOR="#cc9999" TEXT="#000000" LINK="#2020ff" VLINK="#4040cc">
+	<H4>400 Bad Request</H4>
+	Can't parse request.
+	</BODY>
+	</HTML>
+01:25:37.906765 IP (tos 0x0, ttl 56, id 5030, offset 0, flags [DF], proto TCP (6), length 347)
+    164.52.24.163.51068 > 46.21.150.52.80: Flags [P.], cksum 0xd94c (correct), seq 979251435:979251730, ack 303360278, win 229, options [nop,nop,TS val 2979668851 ecr 306871], length 295: HTTP
+01:25:40.940196 IP (tos 0x0, ttl 62, id 18373, offset 0, flags [DF], proto TCP (6), length 353)
+    46.21.150.52.80 > 164.52.24.163.51068: Flags [P.], cksum 0x0d5e (correct), seq 1:302, ack 296, win 972, options [nop,nop,TS val 307666 ecr 2979669609], length 301: HTTP, length: 301
+	(null) 400 Bad Request
+	Server: 
+	Date: Sun, 15 Nov 2020 01:25:41 GMT
+	Content-Type: text/html
+	Connection: close
+	
+	<HTML>
+	<HEAD><TITLE>400 Bad Request</TITLE></HEAD>
+	<BODY BGCOLOR="#cc9999" TEXT="#000000" LINK="#2020ff" VLINK="#4040cc">
+	<H4>400 Bad Request</H4>
+	Can't parse request.
+	</BODY>
+	</HTML>
+01:25:41.162868 IP (tos 0x0, ttl 56, id 60899, offset 0, flags [DF], proto TCP (6), length 255)
+    164.52.24.163.41112 > 46.21.150.52.80: Flags [P.], cksum 0x1987 (correct), seq 150981532:150981735, ack 342897979, win 229, options [nop,nop,TS val 2979669665 ecr 307682], length 203: HTTP
+01:25:44.168578 IP (tos 0x0, ttl 62, id 34620, offset 0, flags [DF], proto TCP (6), length 353)
+    46.21.150.52.80 > 164.52.24.163.41112: Flags [P.], cksum 0x737d (correct), seq 1:302, ack 204, win 972, options [nop,nop,TS val 308473 ecr 2979670416], length 301: HTTP, length: 301
+	(null) 400 Bad Request
+	Server: 
+	Date: Sun, 15 Nov 2020 01:25:44 GMT
+	Content-Type: text/html
+	Connection: close
+	
+	<HTML>
+	<HEAD><TITLE>400 Bad Request</TITLE></HEAD>
+	<BODY BGCOLOR="#cc9999" TEXT="#000000" LINK="#2020ff" VLINK="#4040cc">
+	<H4>400 Bad Request</H4>
+	Can't parse request.
+	</BODY>
+	</HTML>
+01:25:44.336752 IP (tos 0x0, ttl 56, id 974, offset 0, flags [DF], proto TCP (6), length 255)
+    164.52.24.163.55358 > 46.21.150.52.80: Flags [P.], cksum 0x9452 (correct), seq 2269129305:2269129508, ack 397097571, win 229, options [nop,nop,TS val 2979670458 ecr 308477], length 203: HTTP
+01:25:47.351332 IP (tos 0x0, ttl 62, id 36730, offset 0, flags [DF], proto TCP (6), length 353)
+    46.21.150.52.80 > 164.52.24.163.55358: Flags [P.], cksum 0x4d40 (correct), seq 1:302, ack 204, win 972, options [nop,nop,TS val 309268 ecr 2979671211], length 301: HTTP, length: 301
+	(null) 400 Bad Request
+	Server: 
+	Date: Sun, 15 Nov 2020 01:25:47 GMT
+	Content-Type: text/html
+	Connection: close
+	
+	<HTML>
+	<HEAD><TITLE>400 Bad Request</TITLE></HEAD>
+	<BODY BGCOLOR="#cc9999" TEXT="#000000" LINK="#2020ff" VLINK="#4040cc">
+	<H4>400 Bad Request</H4>
+	Can't parse request.
+	</BODY>
+	</HTML>
+01:25:47.528022 IP (tos 0x0, ttl 56, id 47261, offset 0, flags [DF], proto TCP (6), length 323)
+    164.52.24.163.45854 > 46.21.150.52.80: Flags [P.], cksum 0x4de2 (correct), seq 596087841:596088112, ack 447026431, win 229, options [nop,nop,TS val 2979671256 ecr 309284], length 271: HTTP, length: 271
+	GET / HTTP/1.1
+	Host: 46.21.150.52:80
+	User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:79.0) Gecko/20100101 Firefox/79.0
+	Accept-Language: zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
+	Accept-Charset: GBK,utf-8;q=0.7,*;q=0.3
+	Accept: application/json, text/plain, */*
+	
+01:25:47.529892 IP (tos 0x0, ttl 62, id 44226, offset 0, flags [DF], proto TCP (6), length 1104)
+    46.21.150.52.80 > 164.52.24.163.45854: Flags [P.], cksum 0x5c15 (correct), seq 1:1053, ack 271, win 972, options [nop,nop,TS val 309313 ecr 2979671256], length 1052: HTTP, length: 1052
+	HTTP/1.1 401 Unauthorized
+	Server: 
+	Date: Sun, 15 Nov 2020 01:25:47 GMT
+	WWW-Authenticate: Basic realm="NETGEAR DGN1000 "
+	Content-Type: text/html
+	Connection: close
+	
+	<html>
+	<head>
+	<META http-equiv="Pragma" CONTENT="no-cache">
+	<META HTTP-EQUIV="Cache-Control" CONTENT="no-cache">	
+	<meta HTTP-EQUIV="Expires" CONTENT="Mon, 06 Jan 1990 00:00:01 GMT"> 
+	
+	
+	<meta name="description" content="DG834N 1049">
+	<meta http-equiv="content-type" content="text/html;charset=ISO-8859-1">
+	
+		
+	 
+	
+	
+	
+	
+	
+	
+	<title> Authorization warning</title>
+	</head>
+	
+	<body bgcolor="#ffffff">
+	<p><font size=4 color="#0099cc" face='Arial,Helvetica,Geneva,Swiss,SunSans-Regular,sans-serif'>Warning</font></p>
+	
+	<hr color="#0099cc">
+	
+	<p align="center"><b><font size=3 face='Arial,Helvetica,Geneva,Swiss,SunSans-Regular,sans-serif'>System Authentication Failed.</font></b></p>
+	
+	<p align="center"><BR><font size=-1 face='Arial,Helvetica,Geneva,Swiss,SunSans-Regular,sans-serif'>
+	Please contact your system administrator for the correct information.</font></p>
+	
+	</body>
+	</html>
+	</BODY>
+	</HTML>

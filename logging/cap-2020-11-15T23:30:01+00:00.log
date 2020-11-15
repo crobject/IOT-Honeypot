@@ -1,0 +1,20 @@
+
+23:26:51.242464 IP (tos 0x2,ECT(0), ttl 116, id 31224, offset 0, flags [DF], proto TCP (6), length 69)
+    69.162.99.42.56833 > 46.21.150.52.80: Flags [P.], cksum 0x0baf (correct), seq 3774890026:3774890055, ack 1967254820, win 256, length 29: HTTP, length: 29
+	HEAD /robots.txt HTTP/1.0
+	
+23:26:51.251742 IP (tos 0x2,ECT(0), ttl 62, id 7148, offset 0, flags [DF], proto TCP (6), length 332)
+    46.21.150.52.80 > 69.162.99.42.56833: Flags [P.], cksum 0x508f (correct), seq 1:293, ack 29, win 913, length 292: HTTP, length: 292
+	HTTP/1.0 404 Not Found
+	Server: 
+	Date: Sun, 15 Nov 2020 23:26:49 GMT
+	Content-Type: text/html
+	Connection: close
+	
+	<HTML>
+	<HEAD><TITLE>404 Not Found</TITLE></HEAD>
+	<BODY BGCOLOR="#cc9999" TEXT="#000000" LINK="#2020ff" VLINK="#4040cc">
+	<H4>404 Not Found</H4>
+	File not found.
+	</BODY>
+	</HTML>

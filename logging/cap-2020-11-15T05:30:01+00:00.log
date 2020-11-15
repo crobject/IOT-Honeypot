@@ -1,0 +1,23 @@
+
+05:19:24.366348 IP (tos 0x0, ttl 53, id 46341, offset 0, flags [DF], proto TCP (6), length 162)
+    69.162.83.246.35620 > 46.21.150.52.80: Flags [P.], cksum 0xd79b (correct), seq 733550456:733550566, ack 381718309, win 502, options [nop,nop,TS val 867349513 ecr 213609], length 110: HTTP, length: 110
+	GET http://example.com/ HTTP/1.1
+	Host: example.com
+	User-Agent: Go-http-client/1.1
+	Accept-Encoding: gzip
+	
+05:19:24.394647 IP (tos 0x0, ttl 62, id 52568, offset 0, flags [DF], proto TCP (6), length 348)
+    46.21.150.52.80 > 69.162.83.246.35620: Flags [P.], cksum 0xb240 (correct), seq 1:297, ack 110, win 905, options [nop,nop,TS val 213625 ecr 867349513], length 296: HTTP, length: 296
+	HTTP/1.1 400 Bad Request
+	Server: 
+	Date: Sun, 15 Nov 2020 05:19:24 GMT
+	Content-Type: text/html
+	Connection: close
+	
+	<HTML>
+	<HEAD><TITLE>400 Bad Request</TITLE></HEAD>
+	<BODY BGCOLOR="#cc9999" TEXT="#000000" LINK="#2020ff" VLINK="#4040cc">
+	<H4>400 Bad Request</H4>
+	Bad filename.
+	</BODY>
+	</HTML>

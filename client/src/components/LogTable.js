@@ -9,6 +9,9 @@ const columns = [
   { field: 'AccessDate', headerName: 'Date Accessed',type:"date", width: 300},
 ];
 
+function isValidDate(d) {
+  return d instanceof Date && !isNaN(d);
+}
 
 export default function LogTable() {
     // const classes = useStyles();
@@ -21,9 +24,11 @@ export default function LogTable() {
               var data_formatted = []
               data.map(row =>{
                 const temp = "2020 " + row.AccessDate
-                const date = new Date(temp);
-                data_formatted.push({...row, AccessDate: date.toISOString()});
-              })
+        	const date = new Date(temp);
+		if(isValidDate(date)){
+                	data_formatted.push({...row, AccessDate: date.toISOString()});
+              	}
+	    })
               setRows(data_formatted)
             })
           .then(() => setLoading(false));

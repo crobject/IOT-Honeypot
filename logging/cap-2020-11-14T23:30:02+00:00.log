@@ -1,0 +1,128 @@
+
+23:01:11.100249 IP (tos 0x28, ttl 49, id 35316, offset 0, flags [DF], proto TCP (6), length 161)
+    193.177.162.226.58790 > 46.21.150.52.80: Flags [P.], cksum 0x112a (correct), seq 1252444573:1252444682, ack 2229309783, win 502, options [nop,nop,TS val 1181233537 ecr 4294907258], length 109: HTTP, length: 109
+	GET / HTTP/1.1
+	Host: 46.21.150.52
+	User-Agent: Mozilla/5.0 zgrab/0.x
+	Accept: */*
+	Accept-Encoding: gzip
+	
+23:01:11.123245 IP (tos 0x0, ttl 62, id 33994, offset 0, flags [DF], proto TCP (6), length 1104)
+    46.21.150.52.80 > 193.177.162.226.58790: Flags [P.], cksum 0x61b4 (correct), seq 1:1053, ack 109, win 905, options [nop,nop,TS val 4294907299 ecr 1181233537], length 1052: HTTP, length: 1052
+	HTTP/1.1 401 Unauthorized
+	Server: 
+	Date: Sat, 14 Nov 2020 23:01:10 GMT
+	WWW-Authenticate: Basic realm="NETGEAR DGN1000 "
+	Content-Type: text/html
+	Connection: close
+	
+	<html>
+	<head>
+	<META http-equiv="Pragma" CONTENT="no-cache">
+	<META HTTP-EQUIV="Cache-Control" CONTENT="no-cache">	
+	<meta HTTP-EQUIV="Expires" CONTENT="Mon, 06 Jan 1990 00:00:01 GMT"> 
+	
+	
+	<meta name="description" content="DG834N 1049">
+	<meta http-equiv="content-type" content="text/html;charset=ISO-8859-1">
+	
+		
+	 
+	
+	
+	
+	
+	
+	
+	<title> Authorization warning</title>
+	</head>
+	
+	<body bgcolor="#ffffff">
+	<p><font size=4 color="#0099cc" face='Arial,Helvetica,Geneva,Swiss,SunSans-Regular,sans-serif'>Warning</font></p>
+	
+	<hr color="#0099cc">
+	
+	<p align="center"><b><font size=3 face='Arial,Helvetica,Geneva,Swiss,SunSans-Regular,sans-serif'>System Authentication Failed.</font></b></p>
+	
+	<p align="center"><BR><font size=-1 face='Arial,Helvetica,Geneva,Swiss,SunSans-Regular,sans-serif'>
+	Please contact your system administrator for the correct information.</font></p>
+	
+	</body>
+	</html>
+	</BODY>
+	</HTML>
+23:11:20.051804 IP (tos 0x28, ttl 49, id 3867, offset 0, flags [DF], proto TCP (6), length 161)
+    193.177.162.226.34906 > 46.21.150.52.80: Flags [P.], cksum 0xb657 (correct), seq 955207428:955207537, ack 3176267762, win 502, options [nop,nop,TS val 1181842477 ecr 92198], length 109: HTTP, length: 109
+	GET / HTTP/1.1
+	Host: 46.21.150.52
+	User-Agent: Mozilla/5.0 zgrab/0.x
+	Accept: */*
+	Accept-Encoding: gzip
+	
+23:11:20.064690 IP (tos 0x0, ttl 62, id 38841, offset 0, flags [DF], proto TCP (6), length 1104)
+    46.21.150.52.80 > 193.177.162.226.34906: Flags [P.], cksum 0x06da (correct), seq 1:1053, ack 109, win 905, options [nop,nop,TS val 92237 ecr 1181842477], length 1052: HTTP, length: 1052
+	HTTP/1.1 401 Unauthorized
+	Server: 
+	Date: Sat, 14 Nov 2020 23:11:19 GMT
+	WWW-Authenticate: Basic realm="NETGEAR DGN1000 "
+	Content-Type: text/html
+	Connection: close
+	
+	<html>
+	<head>
+	<META http-equiv="Pragma" CONTENT="no-cache">
+	<META HTTP-EQUIV="Cache-Control" CONTENT="no-cache">	
+	<meta HTTP-EQUIV="Expires" CONTENT="Mon, 06 Jan 1990 00:00:01 GMT"> 
+	
+	
+	<meta name="description" content="DG834N 1049">
+	<meta http-equiv="content-type" content="text/html;charset=ISO-8859-1">
+	
+		
+	 
+	
+	
+	
+	
+	
+	
+	<title> Authorization warning</title>
+	</head>
+	
+	<body bgcolor="#ffffff">
+	<p><font size=4 color="#0099cc" face='Arial,Helvetica,Geneva,Swiss,SunSans-Regular,sans-serif'>Warning</font></p>
+	
+	<hr color="#0099cc">
+	
+	<p align="center"><b><font size=3 face='Arial,Helvetica,Geneva,Swiss,SunSans-Regular,sans-serif'>System Authentication Failed.</font></b></p>
+	
+	<p align="center"><BR><font size=-1 face='Arial,Helvetica,Geneva,Swiss,SunSans-Regular,sans-serif'>
+	Please contact your system administrator for the correct information.</font></p>
+	
+	</body>
+	</html>
+	</BODY>
+	</HTML>
+23:23:06.234198 IP (tos 0x0, ttl 53, id 51196, offset 0, flags [DF], proto TCP (6), length 175)
+    192.241.235.26.50860 > 46.21.150.52.80: Flags [P.], cksum 0x4a24 (correct), seq 3497686360:3497686483, ack 1375317250, win 229, options [nop,nop,TS val 1291431168 ecr 268776], length 123: HTTP, length: 123
+	GET /portal/redlion HTTP/1.1
+	Host: 46.21.150.52
+	User-Agent: Mozilla/5.0 zgrab/0.x
+	Accept: */*
+	Accept-Encoding: gzip
+	
+23:23:06.237259 IP (tos 0x0, ttl 62, id 46314, offset 0, flags [DF], proto TCP (6), length 344)
+    46.21.150.52.80 > 192.241.235.26.50860: Flags [P.], cksum 0x552a (correct), seq 1:293, ack 123, win 905, options [nop,nop,TS val 268779 ecr 1291431168], length 292: HTTP, length: 292
+	HTTP/1.1 404 Not Found
+	Server: 
+	Date: Sat, 14 Nov 2020 23:23:05 GMT
+	Content-Type: text/html
+	Connection: close
+	
+	<HTML>
+	<HEAD><TITLE>404 Not Found</TITLE></HEAD>
+	<BODY BGCOLOR="#cc9999" TEXT="#000000" LINK="#2020ff" VLINK="#4040cc">
+	<H4>404 Not Found</H4>
+	File not found.
+	</BODY>
+	</HTML>

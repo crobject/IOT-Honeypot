@@ -27,7 +27,6 @@ export default function HTTPLogTable(props) {
       .then(data => {
           var data_formatted = []
           data.map(row =>{
-            console.log(row.ReqTime);
             var myDate =  new Date(row.ReqTime * 1000).toLocaleDateString() + " " + new Date(row.ReqTime * 1000).toLocaleTimeString();
             data_formatted.push({...row, ReqTime: myDate});
           })

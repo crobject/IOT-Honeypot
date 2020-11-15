@@ -7,7 +7,7 @@ import base64
 
 mydb = mysql.connector.connect(
   host="localhost",
-  user="honeypot",
+  user="root",
   password="password",
   database="Honeypot",
   auth_plugin='mysql_native_password'
@@ -22,7 +22,7 @@ with open(sys.argv[1]) as f:
 
 lines = data.split('\n')
 
-cur = None
+cur = defaultdict(lambda: "")
 caps = []
 
 def finish_process_cap(cap):
@@ -52,6 +52,7 @@ for line in lines:
 
         cur = defaultdict(lambda: "") 
         cur["time"] = parser.parse(line.split(' ')[0]).timestamp()
+        cur["full_http"] = '' 
 
     elif re.search('(?:[0-9]{1,3}\.){3}[0-9]{1,3}\.\d+ > (?:[0-9]{1,3}\.){3}[0-9]{1,3}\.\d+', line):
         m = re.search('((?:[0-9]{1,3}\.){3}[0-9]{1,3})\.\d+ > (?:[0-9]{1,3}\.){3}[0-9]{1,3}\.\d+', line)

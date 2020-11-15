@@ -1,0 +1,52 @@
+
+13:55:36.440160 IP (tos 0x0, ttl 42, id 16937, offset 0, flags [DF], proto TCP (6), length 236)
+    91.106.77.224.37155 > 46.21.150.52.80: Flags [P.], cksum 0x1266 (correct), seq 1556734867:1556735051, ack 3305229441, win 1751, options [nop,nop,TS val 277586382 ecr 306610], length 184: HTTP, length: 184
+	GET / HTTP/1.1
+	Host: 46.21.150.52:80
+	User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36
+	Content-Length: 0
+	
+13:55:36.469810 IP (tos 0x0, ttl 62, id 24948, offset 0, flags [DF], proto TCP (6), length 1104)
+    46.21.150.52.80 > 91.106.77.224.37155: Flags [P.], cksum 0xddbe (correct), seq 1:1053, ack 184, win 972, options [nop,nop,TS val 306680 ecr 277586382], length 1052: HTTP, length: 1052
+	HTTP/1.1 401 Unauthorized
+	Server: 
+	Date: Sun, 15 Nov 2020 13:55:36 GMT
+	WWW-Authenticate: Basic realm="NETGEAR DGN1000 "
+	Content-Type: text/html
+	Connection: close
+	
+	<html>
+	<head>
+	<META http-equiv="Pragma" CONTENT="no-cache">
+	<META HTTP-EQUIV="Cache-Control" CONTENT="no-cache">	
+	<meta HTTP-EQUIV="Expires" CONTENT="Mon, 06 Jan 1990 00:00:01 GMT"> 
+	
+	
+	<meta name="description" content="DG834N 1049">
+	<meta http-equiv="content-type" content="text/html;charset=ISO-8859-1">
+	
+		
+	 
+	
+	
+	
+	
+	
+	
+	<title> Authorization warning</title>
+	</head>
+	
+	<body bgcolor="#ffffff">
+	<p><font size=4 color="#0099cc" face='Arial,Helvetica,Geneva,Swiss,SunSans-Regular,sans-serif'>Warning</font></p>
+	
+	<hr color="#0099cc">
+	
+	<p align="center"><b><font size=3 face='Arial,Helvetica,Geneva,Swiss,SunSans-Regular,sans-serif'>System Authentication Failed.</font></b></p>
+	
+	<p align="center"><BR><font size=-1 face='Arial,Helvetica,Geneva,Swiss,SunSans-Regular,sans-serif'>
+	Please contact your system administrator for the correct information.</font></p>
+	
+	</body>
+	</html>
+	</BODY>
+	</HTML>

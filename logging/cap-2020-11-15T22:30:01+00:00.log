@@ -1,0 +1,217 @@
+
+22:09:27.713351 IP (tos 0x0, ttl 62, id 5805, offset 0, flags [DF], proto TCP (6), length 397)
+    46.21.150.52.80 > 79.3.89.246.58864: Flags [P.], cksum 0xb1eb (correct), seq 1445517208:1445517553, ack 16626570, win 905, options [nop,nop,TS val 64466 ecr 43612848], length 345: HTTP, length: 345
+	(null) 408 Request Timeout
+	Server: 
+	Date: Sun, 15 Nov 2020 22:09:27 GMT
+	Content-Type: text/html
+	Connection: close
+	
+	<HTML>
+	<HEAD><TITLE>408 Request Timeout</TITLE></HEAD>
+	<BODY BGCOLOR="#cc9999" TEXT="#000000" LINK="#2020ff" VLINK="#4040cc">
+	<H4>408 Request Timeout</H4>
+	No request appeared within a reasonable time period.
+	</BODY>
+	</HTML>
+22:09:28.274773 IP (tos 0x0, ttl 62, id 5807, offset 0, flags [DF], proto TCP (6), length 397)
+    46.21.150.52.80 > 79.3.89.246.58864: Flags [P.], cksum 0xb15e (correct), seq 0:345, ack 1, win 905, options [nop,nop,TS val 64607 ecr 43612848], length 345: HTTP, length: 345
+	(null) 408 Request Timeout
+	Server: 
+	Date: Sun, 15 Nov 2020 22:09:27 GMT
+	Content-Type: text/html
+	Connection: close
+	
+	<HTML>
+	<HEAD><TITLE>408 Request Timeout</TITLE></HEAD>
+	<BODY BGCOLOR="#cc9999" TEXT="#000000" LINK="#2020ff" VLINK="#4040cc">
+	<H4>408 Request Timeout</H4>
+	No request appeared within a reasonable time period.
+	</BODY>
+	</HTML>
+22:09:29.403466 IP (tos 0x0, ttl 62, id 5808, offset 0, flags [DF], proto TCP (6), length 397)
+    46.21.150.52.80 > 79.3.89.246.58864: Flags [P.], cksum 0xb043 (correct), seq 0:345, ack 1, win 905, options [nop,nop,TS val 64890 ecr 43612848], length 345: HTTP, length: 345
+	(null) 408 Request Timeout
+	Server: 
+	Date: Sun, 15 Nov 2020 22:09:27 GMT
+	Content-Type: text/html
+	Connection: close
+	
+	<HTML>
+	<HEAD><TITLE>408 Request Timeout</TITLE></HEAD>
+	<BODY BGCOLOR="#cc9999" TEXT="#000000" LINK="#2020ff" VLINK="#4040cc">
+	<H4>408 Request Timeout</H4>
+	No request appeared within a reasonable time period.
+	</BODY>
+	</HTML>
+22:09:31.667476 IP (tos 0x0, ttl 62, id 5809, offset 0, flags [DF], proto TCP (6), length 397)
+    46.21.150.52.80 > 79.3.89.246.58864: Flags [P.], cksum 0xae0d (correct), seq 0:345, ack 1, win 905, options [nop,nop,TS val 65456 ecr 43612848], length 345: HTTP, length: 345
+	(null) 408 Request Timeout
+	Server: 
+	Date: Sun, 15 Nov 2020 22:09:27 GMT
+	Content-Type: text/html
+	Connection: close
+	
+	<HTML>
+	<HEAD><TITLE>408 Request Timeout</TITLE></HEAD>
+	<BODY BGCOLOR="#cc9999" TEXT="#000000" LINK="#2020ff" VLINK="#4040cc">
+	<H4>408 Request Timeout</H4>
+	No request appeared within a reasonable time period.
+	</BODY>
+	</HTML>
+22:09:36.195711 IP (tos 0x0, ttl 62, id 5810, offset 0, flags [DF], proto TCP (6), length 397)
+    46.21.150.52.80 > 79.3.89.246.58864: Flags [P.], cksum 0xa9a1 (correct), seq 0:345, ack 1, win 905, options [nop,nop,TS val 66588 ecr 43612848], length 345: HTTP, length: 345
+	(null) 408 Request Timeout
+	Server: 
+	Date: Sun, 15 Nov 2020 22:09:27 GMT
+	Content-Type: text/html
+	Connection: close
+	
+	<HTML>
+	<HEAD><TITLE>408 Request Timeout</TITLE></HEAD>
+	<BODY BGCOLOR="#cc9999" TEXT="#000000" LINK="#2020ff" VLINK="#4040cc">
+	<H4>408 Request Timeout</H4>
+	No request appeared within a reasonable time period.
+	</BODY>
+	</HTML>
+22:09:45.235670 IP (tos 0x0, ttl 62, id 5811, offset 0, flags [DF], proto TCP (6), length 397)
+    46.21.150.52.80 > 79.3.89.246.58864: Flags [P.], cksum 0xa0cd (correct), seq 0:345, ack 1, win 905, options [nop,nop,TS val 68848 ecr 43612848], length 345: HTTP, length: 345
+	(null) 408 Request Timeout
+	Server: 
+	Date: Sun, 15 Nov 2020 22:09:27 GMT
+	Content-Type: text/html
+	Connection: close
+	
+	<HTML>
+	<HEAD><TITLE>408 Request Timeout</TITLE></HEAD>
+	<BODY BGCOLOR="#cc9999" TEXT="#000000" LINK="#2020ff" VLINK="#4040cc">
+	<H4>408 Request Timeout</H4>
+	No request appeared within a reasonable time period.
+	</BODY>
+	</HTML>
+22:10:03.347840 IP (tos 0x0, ttl 62, id 5812, offset 0, flags [DF], proto TCP (6), length 397)
+    46.21.150.52.80 > 79.3.89.246.58864: Flags [P.], cksum 0x8f1d (correct), seq 0:345, ack 1, win 905, options [nop,nop,TS val 73376 ecr 43612848], length 345: HTTP, length: 345
+	(null) 408 Request Timeout
+	Server: 
+	Date: Sun, 15 Nov 2020 22:09:27 GMT
+	Content-Type: text/html
+	Connection: close
+	
+	<HTML>
+	<HEAD><TITLE>408 Request Timeout</TITLE></HEAD>
+	<BODY BGCOLOR="#cc9999" TEXT="#000000" LINK="#2020ff" VLINK="#4040cc">
+	<H4>408 Request Timeout</H4>
+	No request appeared within a reasonable time period.
+	</BODY>
+	</HTML>
+22:10:39.575118 IP (tos 0x0, ttl 62, id 5813, offset 0, flags [DF], proto TCP (6), length 397)
+    46.21.150.52.80 > 79.3.89.246.58864: Flags [P.], cksum 0x6bbd (correct), seq 0:345, ack 1, win 905, options [nop,nop,TS val 82432 ecr 43612848], length 345: HTTP, length: 345
+	(null) 408 Request Timeout
+	Server: 
+	Date: Sun, 15 Nov 2020 22:09:27 GMT
+	Content-Type: text/html
+	Connection: close
+	
+	<HTML>
+	<HEAD><TITLE>408 Request Timeout</TITLE></HEAD>
+	<BODY BGCOLOR="#cc9999" TEXT="#000000" LINK="#2020ff" VLINK="#4040cc">
+	<H4>408 Request Timeout</H4>
+	No request appeared within a reasonable time period.
+	</BODY>
+	</HTML>
+22:10:42.471920 IP (tos 0x28, ttl 41, id 60232, offset 0, flags [DF], proto TCP (6), length 236)
+    37.6.73.233.44196 > 46.21.150.52.80: Flags [P.], cksum 0x10df (correct), seq 1840945071:1840945255, ack 3562841352, win 5808, options [nop,nop,TS val 490751 ecr 83100], length 184: HTTP, length: 184
+	GET / HTTP/1.1
+	Host: 46.21.150.52:80
+	User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36
+	Content-Length: 0
+	
+22:10:42.481080 IP (tos 0x0, ttl 62, id 57821, offset 0, flags [DF], proto TCP (6), length 1104)
+    46.21.150.52.80 > 37.6.73.233.44196: Flags [P.], cksum 0xb83f (correct), seq 1:1053, ack 184, win 15544, options [nop,nop,TS val 83158 ecr 490751], length 1052: HTTP, length: 1052
+	HTTP/1.1 401 Unauthorized
+	Server: 
+	Date: Sun, 15 Nov 2020 22:10:42 GMT
+	WWW-Authenticate: Basic realm="NETGEAR DGN1000 "
+	Content-Type: text/html
+	Connection: close
+	
+	<html>
+	<head>
+	<META http-equiv="Pragma" CONTENT="no-cache">
+	<META HTTP-EQUIV="Cache-Control" CONTENT="no-cache">	
+	<meta HTTP-EQUIV="Expires" CONTENT="Mon, 06 Jan 1990 00:00:01 GMT"> 
+	
+	
+	<meta name="description" content="DG834N 1049">
+	<meta http-equiv="content-type" content="text/html;charset=ISO-8859-1">
+	
+		
+	 
+	
+	
+	
+	
+	
+	
+	<title> Authorization warning</title>
+	</head>
+	
+	<body bgcolor="#ffffff">
+	<p><font size=4 color="#0099cc" face='Arial,Helvetica,Geneva,Swiss,SunSans-Regular,sans-serif'>Warning</font></p>
+	
+	<hr color="#0099cc">
+	
+	<p align="center"><b><font size=3 face='Arial,Helvetica,Geneva,Swiss,SunSans-Regular,sans-serif'>System Authentication Failed.</font></b></p>
+	
+	<p align="center"><BR><font size=-1 face='Arial,Helvetica,Geneva,Swiss,SunSans-Regular,sans-serif'>
+	Please contact your system administrator for the correct information.</font></p>
+	
+	</body>
+	</html>
+	</BODY>
+	</HTML>
+22:12:32.087745 IP (tos 0x0, ttl 62, id 52047, offset 0, flags [DF], proto TCP (6), length 353)
+    46.21.150.52.80 > 221.178.56.35.26488: Flags [P.], cksum 0x7065 (correct), seq 894787881:894788182, ack 3368093371, win 905, options [nop,nop,TS val 110560 ecr 2247817698], length 301: HTTP, length: 301
+	(null) 400 Bad Request
+	Server: 
+	Date: Sun, 15 Nov 2020 22:12:31 GMT
+	Content-Type: text/html
+	Connection: close
+	
+	<HTML>
+	<HEAD><TITLE>400 Bad Request</TITLE></HEAD>
+	<BODY BGCOLOR="#cc9999" TEXT="#000000" LINK="#2020ff" VLINK="#4040cc">
+	<H4>400 Bad Request</H4>
+	Can't parse request.
+	</BODY>
+	</HTML>
+22:12:33.212867 IP (tos 0x0, ttl 62, id 52049, offset 0, flags [DF], proto TCP (6), length 353)
+    46.21.150.52.80 > 221.178.56.35.26488: Flags [P.], cksum 0x6f4b (correct), seq 0:301, ack 1, win 905, options [nop,nop,TS val 110842 ecr 2247817698], length 301: HTTP, length: 301
+	(null) 400 Bad Request
+	Server: 
+	Date: Sun, 15 Nov 2020 22:12:31 GMT
+	Content-Type: text/html
+	Connection: close
+	
+	<HTML>
+	<HEAD><TITLE>400 Bad Request</TITLE></HEAD>
+	<BODY BGCOLOR="#cc9999" TEXT="#000000" LINK="#2020ff" VLINK="#4040cc">
+	<H4>400 Bad Request</H4>
+	Can't parse request.
+	</BODY>
+	</HTML>
+22:12:35.717339 IP (tos 0x0, ttl 62, id 51842, offset 0, flags [DF], proto TCP (6), length 353)
+    46.21.150.52.80 > 221.178.56.35.27254: Flags [P.], cksum 0xa19d (correct), seq 963213341:963213642, ack 3159010876, win 905, options [nop,nop,TS val 111467 ecr 2247821326], length 301: HTTP, length: 301
+	(null) 400 Bad Request
+	Server: 
+	Date: Sun, 15 Nov 2020 22:12:35 GMT
+	Content-Type: text/html
+	Connection: close
+	
+	<HTML>
+	<HEAD><TITLE>400 Bad Request</TITLE></HEAD>
+	<BODY BGCOLOR="#cc9999" TEXT="#000000" LINK="#2020ff" VLINK="#4040cc">
+	<H4>400 Bad Request</H4>
+	Can't parse request.
+	</BODY>
+	</HTML>
