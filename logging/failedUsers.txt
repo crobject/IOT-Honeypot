@@ -1,6 +1,6 @@
 counts  user
 ----------------
-3882 root
+3884 root
 128 admin
 82 test
 76 user
@@ -147,6 +147,7 @@ counts  user
 3 anand
 3 aaron
 3 aa
+3 1q2w@12345
 3 0101
 2 nobody
 2 zs@idc@sx
@@ -244,6 +245,7 @@ counts  user
 2 purple
 2 public
 2 P@ssword!
+2 P@ss@W0rd
 2 ps
 2 pruebas
 2 platform
@@ -374,6 +376,7 @@ counts  user
 2 config
 2 common
 2 cms
+2 clientname
 2 cisco
 2 chef
 2 c
@@ -397,6 +400,7 @@ counts  user
 2 automation
 2 auditor
 2 atwork
+2 Asdfg.123456
 2 as123456
 2 Apps
 2 app
@@ -427,10 +431,10 @@ counts  user
 2 Aa123456789
 2 A@12345678
 2 A123456789!
-2 1q2w@12345
 2 1
 2 1@Ab
 2 1a2i3s4
+2 123-wsx
 2 123QWEzaqZAQ
 2 123QWEqaz
 2 123@qweasd
@@ -461,6 +465,7 @@ counts  user
 1 Zaq1wsx
 1 zaq1
 1 yy
+1 yY@123456
 1 yusuf
 1 yun
 1 yuan
@@ -493,6 +498,7 @@ counts  user
 1 william
 1 werkstatt
 1 Welcome5
+1 Welcome2012*
 1 weixin
 1 webcam
 1 webapp
@@ -562,6 +568,7 @@ counts  user
 1 tempo
 1 tempftp
 1 temp1
+1 temp@1234
 1 telecomadmin
 1 tecmint
 1 team
@@ -575,6 +582,7 @@ counts  user
 1 svnuser
 1 svn
 1 suser
+1 Support2015
 1 super
 1 sunil
 1 sun
@@ -655,6 +663,7 @@ counts  user
 1 R00tR00t!
 1 QWExsw123!@#
 1 qwerty
+1 qwerty2013
 1 Qwerty@147
 1 QWERTY_123
 1 Qwerty#0p;
@@ -674,6 +683,7 @@ counts  user
 1 !qazxsw@3edc
 1 qazwsx@123
 1 !QAZ@5tgb
+1 !QAZ@4rfv
 1 Qaz123*
 1 Qaz123
 1 Qaz123654
@@ -684,14 +694,17 @@ counts  user
 1 !Q2w3E4r5y
 1 !Q2A3z4w5s6x
 1 Q1W2E3
+1 !Q@!1q21
 1 !q@!1q21
 1 q1
 1 q12we34rt5
 1 pydio
 1 pych
 1 PW9#AL0
+1 P@##w0rd1
 1 P@ssWord
 1 p@Ss`wOrD
+1 P@ssword44
 1 p@ssword2009
 1 p@ssword.2008
 1 p@ssword.2002
@@ -701,8 +714,10 @@ counts  user
 1 P@ssword12345
 1 P@ssword12123
 1 P@SSWORD01
-1 P@ss@W0rd
+1 p@SSw0rd
+1 p@sSW0Rd
 1 P@ssw0rd2121
+1 P@ssw0rd2015
 1 P@@ssw0rd1
 1 P@ssw0rd123.
 1 P@SSW0RD1234
@@ -745,13 +760,17 @@ counts  user
 1 paSswOrD
 1 Password@96321
 1 Password@77
+1 Pass@word55
 1 Password555
 1 Password45
 1 Password3
+1 Password2013
+1 Password!1*
 1 PAsswOrd1
 1 Password1234!
 1 Password08
 1 Passw0rd
+1 Pa@ssw0rd
 1 Passw0rd777
 1 Passw0rd555
 1 PASSW0RD@2005
@@ -788,10 +807,13 @@ counts  user
 1 p@33word2006
 1 p@$sword!
 1 P@$sw0rd12
+1 P@$$WORD12
 1 P@$$word12
 1 P@$$word04
+1 P@$$w0rdp.1
 1 P@$$w0rD
 1 P@$$w0rD1
+1 P@$$@w0rd1
 1 P@$$W0rd0123
 1 p@$$@123456
 1 owen
@@ -875,6 +897,7 @@ counts  user
 1 li
 1 lhy
 1 lfy
+1 Letmein1
 1 leah
 1 laura
 1 lab
@@ -937,6 +960,7 @@ counts  user
 1 group@12345
 1 grace
 1 go
+1 Godaddy
 1 gk
 1 gitlab
 1 g
@@ -967,6 +991,7 @@ counts  user
 1 felix
 1 fastuser
 1 farhan
+1 evocar
 1 everdata
 1 eugene
 1 ethos
@@ -998,6 +1023,7 @@ counts  user
 1 demouser
 1 demon
 1 deborah
+1 dd
 1 dD@123456789
 1 dba
 1 david
@@ -1027,7 +1053,6 @@ counts  user
 1 cod4
 1 cn
 1 clone
-1 clientname
 1 client
 1 cliente
 1 client1
@@ -1039,6 +1064,7 @@ counts  user
 1 cgw
 1 ceph
 1 cedric
+1 cdE3
 1 cde3
 1 cc
 1 cb
@@ -1062,7 +1088,6 @@ counts  user
 1 auxiliar
 1 asd
 1 AsdfgH
-1 Asdfg.123456
 1 Asdf12345
 1 Asdf@12345
 1 Asdf.12345
@@ -1106,6 +1131,7 @@ counts  user
 1 Administrator5*
 1 administrativo
 1 administrativo1
+1 Admin@741852
 1 admin3
 1 Admin*2015
 1 Admin!1@2#
@@ -1118,6 +1144,7 @@ counts  user
 1 adm
 1 Adm33
 1 Adm2012
+1 ADM1N1STR@T0R55
 1 acct
 1 account
 1 abcd
@@ -1127,6 +1154,7 @@ counts  user
 1 abc123.com
 1 abc123456
 1 a@2
+1 a12345
 1 a123456aa
 1 A123456789a
 1 77777777
@@ -1137,12 +1165,14 @@ counts  user
 1 2wsx_1qaz
 1 !2
 1 1@Q
+1 1qazXSW@3edc
 1 1qazxsaz
 1 1qazse4
 1 1qaz2wsxroot
 1 1qasdfv1
 1 1qa2ws
 1 1q2w3e4r5t5678
+1 1q2w3e@1@q2w3e
 1 1p@SSWorD
 1 1password00
 1 1Passw0rd123
@@ -1155,11 +1185,13 @@ counts  user
 1 12qwaszx
 1 !@12qwas!
 1 123ZXCzxc123!
+1 123@ZXCQWE
 1 123@zaq
-1 123-wsx
+1 123Qweqaz@321
 1 123Qweqaz$
 1 123_QWE
 1 123QWEASD789
+1 123@germany@hetzner
 1 123asd@123
 1 123Abc$%^
 1 123Aa
@@ -1170,6 +1202,7 @@ counts  user
 1 12345-qwert
 1 12345)qwert
 1 123456789!@#
+1 123@456@789
 1 123445!@#
 1 12341234
 1 1234$qwer
